@@ -108,7 +108,7 @@ proxies:
 proxy-providers:
           机场:
             type: http
-            url: https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fjmssub.net%2Fmembers%2Fgetsub.php%3Fservice%3D840570%26id%3D5ba6d055-3a89-4c6b-8b22-1fb50b43dc3b&insert=false&udp=false
+            url: https://jmssub.net/members/getsub.php?service=1137008&id=50e0d49b-19d7-4390-8e67-7bbd52695512
             interval: 86400
             path: ./proxy_provider/jc.yaml
             udp: false
