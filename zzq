@@ -218,7 +218,7 @@ proxy-groups:
       - 香港_18
       - 香港_19
       - 香港_20
-  - name: Proxies
+
     use:
       - 机场
     type: select
