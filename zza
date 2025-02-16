@@ -36,6 +36,12 @@ proxies:
   - { name: 香港_18, type: ss, server: hk18.51feitu.com, port: 11018, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
   - { name: 香港_19, type: ss, server: hk19.51feitu.com, port: 11019, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
   - { name: 香港_20, type: ss, server: hk20.51feitu.com, port: 11020, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - {name: 美国游戏专线1, server: c60s1.portablesubmarines.com, port: 5858, type: ss, cipher: aes-256-gcm, password: uzJN89AskSx5vcEj}
+  - {name: 美国游戏专线2, server: c60s2.portablesubmarines.com, port: 5858, type: ss, cipher: aes-256-gcm, password: uzJN89AskSx5vcEj}
+  - {name: 美国游戏专线3, server: c60s3.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本游戏专线4, server: c60s4.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
+  - {name: 荷兰游戏专线5, server: c60s5.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国游戏专线6, server: c60s801.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
   - {name: 尼日1, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-9UAJvr9x-sessTime-15, password: dJIA8BM3}
   - {name: 尼日2, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-I1YiNFtI-sessTime-15, password: dJIA8BM3}
   - {name: 尼日3, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-wEFC9qss-sessTime-15, password: dJIA8BM3}
@@ -195,6 +201,12 @@ proxy-groups:
       - 香港_18
       - 香港_19
       - 香港_20
+      - 美国游戏专线1
+      - 美国游戏专线2
+      - 美国游戏专线3
+      - 日本游戏专线4
+      - 荷兰游戏专线5
+      - 美国游戏专线6
  
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
