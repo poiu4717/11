@@ -190,13 +190,7 @@ proxy-groups:
       - 菲律宾4
       - 菲律宾5
 
-  - name: Proxies
-    use:
-      - 机场
-    type: select
-    url: http://www.gstatic.com/generate_204
-    interval: 600
-    udp: false
+ 
     url: http://www.gstatic.com/generate_204
     interval: 600
     udp: false
@@ -224,6 +218,16 @@ proxy-groups:
       - 香港_18
       - 香港_19
       - 香港_20
+  - name: Proxies
+    use:
+      - 机场
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    udp: false
  
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
