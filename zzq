@@ -105,17 +105,7 @@ proxies:
   - {name: 菲律宾3, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-PH-sessid-bkwDZioT-sessTime-30, password: dJIA8BM3}
   - {name: 菲律宾4, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-PH-sessid-yEriEbOO-sessTime-30, password: dJIA8BM3}
   - {name: 菲律宾5, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-PH-sessid-VNCOReWe-sessTime-30, password: dJIA8BM3}
-proxy-providers:
-          机场:
-            type: http
-            url: https://jmssub.net/members/getsub.php?service=1137008&id=50e0d49b-19d7-4390-8e67-7bbd52695512
-            interval: 86400
-            path: ./proxy_provider/jc.yaml
-            udp: false
-            health-check:
-              enable: true
-              interval: 600
-              url: http://www.gstatic.com/generate_204
+
 
 proxy-groups:
   - name: Googleplay
@@ -219,12 +209,7 @@ proxy-groups:
       - 香港_19
       - 香港_20
 
-    use:
-      - 机场
-    type: select
-    url: http://www.gstatic.com/generate_204
-    interval: 600
-    udp: false
+ 
 
  
 rules:
