@@ -225,9 +225,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 600
     udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: 600
-    udp: false
+
  
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
