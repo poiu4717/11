@@ -36,75 +36,103 @@ proxies:
   - { name: 香港_18, type: ss, server: hk18.51feitu.com, port: 11018, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
   - { name: 香港_19, type: ss, server: hk19.51feitu.com, port: 11019, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
   - { name: 香港_20, type: ss, server: hk20.51feitu.com, port: 11020, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - {name: 🇭🇰 HK   Espresso, server: cnamepc01-dRWTBLtC3XWMfzhd.coffeehouse.wiki, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇭🇰 HK   Ristretto, server: cnamepc02-tdKdep2XNpMwi4Ga.coffeehouse.wiki, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇭🇰 HK   Lungo, server: cnamepc03-NdTaBSpeGG7pLP3p.coffeehouse.wiki, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇨🇳 TW  Cafe Latte, server: cnamepc01-dRWTBLtC3XWMfzhd.coffeehouse.wiki, port: 40040, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇨🇳 TW  Flat White, server: cnamepc02-tdKdep2XNpMwi4Ga.coffeehouse.wiki, port: 40040, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇨🇳 TW  Cold Brew, server: cnamepc03-NdTaBSpeGG7pLP3p.coffeehouse.wiki, port: 40040, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇸🇬 SG   Macchiato, server: cnamepc01-dRWTBLtC3XWMfzhd.coffeehouse.wiki, port: 40050, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇸🇬 SG   Flamingo, server: cnamepc02-tdKdep2XNpMwi4Ga.coffeehouse.wiki, port: 40050, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇸🇬 SG   Romano, server: cnamepc03-NdTaBSpeGG7pLP3p.coffeehouse.wiki, port: 40050, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇯🇵 JP    Cappuccino, server: cnamepc01-dRWTBLtC3XWMfzhd.coffeehouse.wiki, port: 40060, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇯🇵 JP    Moretto, server: cnamepc02-tdKdep2XNpMwi4Ga.coffeehouse.wiki, port: 40060, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇯🇵 JP    Doppio, server: cnamepc03-NdTaBSpeGG7pLP3p.coffeehouse.wiki, port: 40060, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇺🇸 US   Americano, server: cnamepc01-dRWTBLtC3XWMfzhd.coffeehouse.wiki, port: 40070, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇺🇸 US   Affogato, server: cnamepc02-tdKdep2XNpMwi4Ga.coffeehouse.wiki, port: 40070, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇺🇸 US   Moccha, server: cnamepc03-NdTaBSpeGG7pLP3p.coffeehouse.wiki, port: 40070, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇩🇪 DE   Dirty, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40081, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇰🇷 KR   Galao, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40085, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: AR   Breve, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40084, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇬🇧 UK   Con Panna, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40080, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: IE    Irish Coffee, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40083, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇦🇹 AT   Vienna Coffee, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40082, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: "🇨🇦 CA [NEW]", server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40097, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
   - {name: 美国游戏专线1, server: c60s1.portablesubmarines.com, port: 5858, type: ss, cipher: aes-256-gcm, password: uzJN89AskSx5vcEj}
   - {name: 美国游戏专线2, server: c60s2.portablesubmarines.com, port: 5858, type: ss, cipher: aes-256-gcm, password: uzJN89AskSx5vcEj}
   - {name: 美国游戏专线3, server: c60s3.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
   - {name: 日本游戏专线4, server: c60s4.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
   - {name: 荷兰游戏专线5, server: c60s5.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
   - {name: 美国游戏专线6, server: c60s801.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
-  - {name: 尼日1, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-9UAJvr9x-sessTime-15, password: dJIA8BM3}
-  - {name: 尼日2, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-I1YiNFtI-sessTime-15, password: dJIA8BM3}
-  - {name: 尼日3, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-wEFC9qss-sessTime-15, password: dJIA8BM3}
-  - {name: 尼日4, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-Ld3Qh0dm-sessTime-15, password: dJIA8BM3}
-  - {name: 尼日5, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-dBzMSixq-sessTime-15, password: dJIA8BM3}
-  - {name: 尼日6, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-8wRvyAzV-sessTime-120, password: dJIA8BM3}
-  - {name: 尼日7, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-IeyhyLgk-sessTime-120, password: dJIA8BM3}
-  - {name: 尼日8, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-J5CQIAYz-sessTime-120, password: dJIA8BM3}
-  - {name: 尼日9, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-qTMQG1Vp-sessTime-120, password: dJIA8BM3}
-  - {name: 尼日10, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-NG-sessid-iuczjfkw-sessTime-120, password: dJIA8BM3}
+  - {name: 尼日1, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-9UAJvr9x-sessTime-15, password: dJIA8BM3}
+  - {name: 尼日2, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-I1YiNFtI-sessTime-15, password: dJIA8BM3}
+  - {name: 尼日3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-wEFC9qss-sessTime-15, password: dJIA8BM3}
+  - {name: 尼日4, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-Ld3Qh0dm-sessTime-15, password: dJIA8BM3}
+  - {name: 尼日5, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-dBzMSixq-sessTime-15, password: dJIA8BM3}
+  - {name: 尼日6, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-8wRvyAzV-sessTime-120, password: dJIA8BM3}
+  - {name: 尼日7, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-IeyhyLgk-sessTime-120, password: dJIA8BM3}
+  - {name: 尼日8, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-J5CQIAYz-sessTime-120, password: dJIA8BM3}
+  - {name: 尼日9, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-qTMQG1Vp-sessTime-120, password: dJIA8BM3}
+  - {name: 尼日10, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-iuczjfkw-sessTime-120, password: dJIA8BM3}
   - {name: 尼日11, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-mDZf3XLJ}
   - {name: 尼日12, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-h6L0gVOR}
   - {name: 尼日13, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-ryRUlInE}
   - {name: 尼日14, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-8gP6dRLD}
   - {name: 尼日15, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-DeUWLA4M}
-  - {name: 埃及1, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-EG-sessid-zfMZZBQq-sessTime-15, password: dJIA8BM3}
-  - {name: 埃及2, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-EG-sessid-SmmPVJOy-sessTime-15, password: dJIA8BM3}
-  - {name: 埃及3, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-EG-sessid-Eyhoe4xZ-sessTime-15, password: dJIA8BM3}
-  - {name: 埃及4, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-EG-sessid-Ajd6PZzx-sessTime-15, password: dJIA8BM3}
-  - {name: 埃及5, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-EG-sessid-76NRA7QP-sessTime-15, password: dJIA8BM3}
-  - {name: 埃及6, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-EG-sessid-QF3S5XWq-sessTime-15, password: dJIA8BM3}
-  - {name: 埃及7, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-EG-sessid-b56mswAN-sessTime-15, password: dJIA8BM3}
-  - {name: 埃及8, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-EG-sessid-b8GdxzaL-sessTime-15, password: dJIA8BM3}
-  - {name: 埃及9, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-EG-sessid-vbPY6tQq-sessTime-15, password: dJIA8BM3}
-  - {name: 埃及10, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-EG-sessid-9G8ScPkO-sessTime-15, password: dJIA8BM3}
+  - {name: 埃及1, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-zfMZZBQq-sessTime-15, password: dJIA8BM3}
+  - {name: 埃及2, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-SmmPVJOy-sessTime-15, password: dJIA8BM3}
+  - {name: 埃及3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-Eyhoe4xZ-sessTime-15, password: dJIA8BM3}
+  - {name: 埃及4, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-Ajd6PZzx-sessTime-15, password: dJIA8BM3}
+  - {name: 埃及5, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-76NRA7QP-sessTime-15, password: dJIA8BM3}
+  - {name: 埃及6, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-QF3S5XWq-sessTime-15, password: dJIA8BM3}
+  - {name: 埃及7, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-b56mswAN-sessTime-15, password: dJIA8BM3}
+  - {name: 埃及8, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-b8GdxzaL-sessTime-15, password: dJIA8BM3}
+  - {name: 埃及9, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-vbPY6tQq-sessTime-15, password: dJIA8BM3}
+  - {name: 埃及10, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-9G8ScPkO-sessTime-15, password: dJIA8BM3}
 
 
-  - {name: 缅甸1, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-MM-sessid-kmszjXc0-sessTime-15, password: dJIA8BM3}
-  - {name: 缅甸2, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-MM-sessid-3uNCfzJE-sessTime-15, password: dJIA8BM3}
-  - {name: 缅甸3, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-MM-sessid-lfMahCnS-sessTime-15, password: dJIA8BM3}
-  - {name: 缅甸4, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-MM-sessid-cEGwQAjc-sessTime-15, password: dJIA8BM3}
-  - {name: 缅甸5, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-MM-sessid-Wbh9u2rQ-sessTime-15, password: dJIA8BM3}
-  - {name: 缅甸6, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-MM-sessid-kkUmAw1U-sessTime-15, password: dJIA8BM3}
-  - {name: 缅甸7, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-MM-sessid-61Eqwe1c-sessTime-15, password: dJIA8BM3}
-  - {name: 缅甸8, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-MM-sessid-pldGAIdp-sessTime-15, password: dJIA8BM3}
-  - {name: 缅甸9, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-MM-sessid-86N7SMnE-sessTime-15, password: dJIA8BM3}
-  - {name: 缅甸10, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-MM-sessid-0cOzuZkG-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸1, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-MM-sessid-kmszjXc0-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸2, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-MM-sessid-3uNCfzJE-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-MM-sessid-lfMahCnS-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸4, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-MM-sessid-cEGwQAjc-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸5, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-MM-sessid-Wbh9u2rQ-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸6, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-MM-sessid-kkUmAw1U-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸7, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-MM-sessid-61Eqwe1c-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸8, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-MM-sessid-pldGAIdp-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸9, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-MM-sessid-86N7SMnE-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸10, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-MM-sessid-0cOzuZkG-sessTime-15, password: dJIA8BM3}
 
-  - {name: 土耳其1, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-TR-sessid-iGZoZ2y7-sessTime-15, password: dJIA8BM3}
-  - {name: 土耳其2, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-TR-sessid-BZ4gLZLU-sessTime-15, password: dJIA8BM3}
-  - {name: 土耳其3, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-TR-sessid-ecz15ucd-sessTime-15, password: dJIA8BM3}
-  - {name: 土耳其4, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-TR-sessid-706EHOSq-sessTime-15, password: dJIA8BM3}
-  - {name: 土耳其5, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-TR-sessid-CrAcKL7u-sessTime-15, password: dJIA8BM3}
+  - {name: 土耳其1, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-TR-sessid-iGZoZ2y7-sessTime-15, password: dJIA8BM3}
+  - {name: 土耳其2, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-TR-sessid-BZ4gLZLU-sessTime-15, password: dJIA8BM3}
+  - {name: 土耳其3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-TR-sessid-ecz15ucd-sessTime-15, password: dJIA8BM3}
+  - {name: 土耳其4, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-TR-sessid-706EHOSq-sessTime-15, password: dJIA8BM3}
+  - {name: 土耳其5, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-TR-sessid-CrAcKL7u-sessTime-15, password: dJIA8BM3}
   - {name: 土耳其6, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-nbKCLM9k}
   - {name: 土耳其7, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-hpvID9LA}
   - {name: 土耳其8, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-EQq86W7A}
   - {name: 土耳其9, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-BKhJacZV}
   - {name: 土耳其10, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-9WytzQkN}
-  - {name: 哥伦比亚1, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-Co-sessid-Lj6inmAX-sessTime-15, password: dJIA8BM3}
-  - {name: 哥伦比亚2, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-Co-sessid-z2S3kzRe-sessTime-15, password: dJIA8BM3}
-  - {name: 哥伦比亚3, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-Co-sessid-d6dcv2Tk-sessTime-15, password: dJIA8BM3}
-  - {name: 哥伦比亚4, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-Co-sessid-GtMs4T8c-sessTime-15, password: dJIA8BM3}
-  - {name: 哥伦比亚5, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-Co-sessid-n3TReYQ0-sessTime-15, password: dJIA8BM3}
-  - {name: 印尼1, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-ID-sessid-RSIzQmeb-sessTime-30, password: dJIA8BM3}
-  - {name: 印尼2, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-ID-sessid-4QH36SVh-sessTime-30, password: dJIA8BM3}
-  - {name: 印尼3, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-ID-sessid-F3DmVcNU-sessTime-30, password: dJIA8BM3}
-  - {name: 印尼4, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-ID-sessid-9qTQumKu-sessTime-30, password: dJIA8BM3}
-  - {name: 印尼5, server: sg-iepl.com, port: 36167, type: socks5, username: 47353961-zone-custom-region-ID-sessid-rcGCDSkQ-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚1, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-Co-sessid-Lj6inmAX-sessTime-15, password: dJIA8BM3}
+  - {name: 哥伦比亚2, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-Co-sessid-z2S3kzRe-sessTime-15, password: dJIA8BM3}
+  - {name: 哥伦比亚3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-Co-sessid-d6dcv2Tk-sessTime-15, password: dJIA8BM3}
+  - {name: 哥伦比亚4, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-Co-sessid-GtMs4T8c-sessTime-15, password: dJIA8BM3}
+  - {name: 哥伦比亚5, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-Co-sessid-n3TReYQ0-sessTime-15, password: dJIA8BM3}
+  - {name: 印尼1, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-ID-sessid-RSIzQmeb-sessTime-30, password: dJIA8BM3}
+  - {name: 印尼2, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-ID-sessid-4QH36SVh-sessTime-30, password: dJIA8BM3}
+  - {name: 印尼3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-ID-sessid-F3DmVcNU-sessTime-30, password: dJIA8BM3}
+  - {name: 印尼4, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-ID-sessid-9qTQumKu-sessTime-30, password: dJIA8BM3}
+  - {name: 印尼5, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-ID-sessid-rcGCDSkQ-sessTime-30, password: dJIA8BM3}
   - {name: 哥伦比亚6, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-co_session-hBmboQ1V}
   - {name: 哥伦比亚7, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-co_session-gP13D9lh}
   - {name: 哥伦比亚8, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-co_session-D6VHOu7E}
   - {name: 哥伦比亚9, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-co_session-aQXmlf7w}
   - {name: 哥伦比亚10, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-co_session-V0NUkncP}
+
+  - {name: 菲律宾1, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-PH-sessid-bgtzLZD6-sessTime-30, password: dJIA8BM3}
+  - {name: 菲律宾2, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-PH-sessid-zMVBxeQY-sessTime-30, password: dJIA8BM3}
+  - {name: 菲律宾3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-PH-sessid-bkwDZioT-sessTime-30, password: dJIA8BM3}
+  - {name: 菲律宾4, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-PH-sessid-yEriEbOO-sessTime-30, password: dJIA8BM3}
+  - {name: 菲律宾5, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-PH-sessid-VNCOReWe-sessTime-30, password: dJIA8BM3}
 
 
 proxy-groups:
@@ -174,6 +202,13 @@ proxy-groups:
       - 哥伦比亚8
       - 哥伦比亚9
       - 哥伦比亚10
+      - 菲律宾1
+      - 菲律宾2
+      - 菲律宾3
+      - 菲律宾4
+      - 菲律宾5
+
+ 
     url: http://www.gstatic.com/generate_204
     interval: 600
     udp: false
@@ -200,13 +235,38 @@ proxy-groups:
       - 香港_17
       - 香港_18
       - 香港_19
-      - 香港_20
       - 美国游戏专线1
       - 美国游戏专线2
       - 美国游戏专线3
       - 日本游戏专线4
       - 荷兰游戏专线5
       - 美国游戏专线6
+      - 香港_20
+
+      - 🇭🇰 HK   Espresso
+      - 🇭🇰 HK   Ristretto
+      - 🇭🇰 HK   Lungo
+      - 🇨🇳 TW  Cafe Latte
+      - 🇨🇳 TW  Flat White
+      - 🇨🇳 TW  Cold Brew
+      - 🇸🇬 SG   Macchiato
+      - 🇸🇬 SG   Flamingo
+      - 🇸🇬 SG   Romano
+      - 🇯🇵 JP    Cappuccino
+      - 🇯🇵 JP    Moretto
+      - 🇯🇵 JP    Doppio
+      - 🇺🇸 US   Americano
+      - 🇺🇸 US   Affogato
+      - 🇺🇸 US   Moccha
+      - 🇩🇪 DE   Dirty
+      - 🇰🇷 KR   Galao
+      - AR   Breve
+      - 🇬🇧 UK   Con Panna
+      - IE    Irish Coffee
+      - 🇦🇹 AT   Vienna Coffee
+      - 🇨🇦 CA [NEW]
+ 
+
  
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
