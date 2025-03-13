@@ -36,6 +36,28 @@ proxies:
   - { name: 香港_18, type: ss, server: hk18.51feitu.com, port: 11018, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
   - { name: 香港_19, type: ss, server: hk19.51feitu.com, port: 11019, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
   - { name: 香港_20, type: ss, server: hk20.51feitu.com, port: 11020, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - {name: 🇭🇰 HK   Espresso, server: cnamepc01-dRWTBLtC3XWMfzhd.coffeehouse.wiki, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇭🇰 HK   Ristretto, server: cnamepc02-tdKdep2XNpMwi4Ga.coffeehouse.wiki, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇭🇰 HK   Lungo, server: cnamepc03-NdTaBSpeGG7pLP3p.coffeehouse.wiki, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇨🇳 TW  Cafe Latte, server: cnamepc01-dRWTBLtC3XWMfzhd.coffeehouse.wiki, port: 40040, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇨🇳 TW  Flat White, server: cnamepc02-tdKdep2XNpMwi4Ga.coffeehouse.wiki, port: 40040, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇨🇳 TW  Cold Brew, server: cnamepc03-NdTaBSpeGG7pLP3p.coffeehouse.wiki, port: 40040, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇸🇬 SG   Macchiato, server: cnamepc01-dRWTBLtC3XWMfzhd.coffeehouse.wiki, port: 40050, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇸🇬 SG   Flamingo, server: cnamepc02-tdKdep2XNpMwi4Ga.coffeehouse.wiki, port: 40050, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇸🇬 SG   Romano, server: cnamepc03-NdTaBSpeGG7pLP3p.coffeehouse.wiki, port: 40050, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇯🇵 JP    Cappuccino, server: cnamepc01-dRWTBLtC3XWMfzhd.coffeehouse.wiki, port: 40060, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇯🇵 JP    Moretto, server: cnamepc02-tdKdep2XNpMwi4Ga.coffeehouse.wiki, port: 40060, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇯🇵 JP    Doppio, server: cnamepc03-NdTaBSpeGG7pLP3p.coffeehouse.wiki, port: 40060, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇺🇸 US   Americano, server: cnamepc01-dRWTBLtC3XWMfzhd.coffeehouse.wiki, port: 40070, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇺🇸 US   Affogato, server: cnamepc02-tdKdep2XNpMwi4Ga.coffeehouse.wiki, port: 40070, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇺🇸 US   Moccha, server: cnamepc03-NdTaBSpeGG7pLP3p.coffeehouse.wiki, port: 40070, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇩🇪 DE   Dirty, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40081, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇰🇷 KR   Galao, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40085, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: AR   Breve, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40084, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇬🇧 UK   Con Panna, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40080, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: IE    Irish Coffee, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40083, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: 🇦🇹 AT   Vienna Coffee, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40082, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
+  - {name: "🇨🇦 CA [NEW]", server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40097, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
   - {name: 美国游戏专线1, server: c60s1.portablesubmarines.com, port: 5858, type: ss, cipher: aes-256-gcm, password: uzJN89AskSx5vcEj}
   - {name: 美国游戏专线2, server: c60s2.portablesubmarines.com, port: 5858, type: ss, cipher: aes-256-gcm, password: uzJN89AskSx5vcEj}
   - {name: 美国游戏专线3, server: c60s3.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
@@ -221,6 +243,28 @@ proxy-groups:
       - 美国游戏专线6
       - 香港_20
 
+      - 🇭🇰 HK   Espresso
+      - 🇭🇰 HK   Ristretto
+      - 🇭🇰 HK   Lungo
+      - 🇨🇳 TW  Cafe Latte
+      - 🇨🇳 TW  Flat White
+      - 🇨🇳 TW  Cold Brew
+      - 🇸🇬 SG   Macchiato
+      - 🇸🇬 SG   Flamingo
+      - 🇸🇬 SG   Romano
+      - 🇯🇵 JP    Cappuccino
+      - 🇯🇵 JP    Moretto
+      - 🇯🇵 JP    Doppio
+      - 🇺🇸 US   Americano
+      - 🇺🇸 US   Affogato
+      - 🇺🇸 US   Moccha
+      - 🇩🇪 DE   Dirty
+      - 🇰🇷 KR   Galao
+      - AR   Breve
+      - 🇬🇧 UK   Con Panna
+      - IE    Irish Coffee
+      - 🇦🇹 AT   Vienna Coffee
+      - 🇨🇦 CA [NEW]
  
 
  
