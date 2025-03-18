@@ -134,11 +134,11 @@ proxies:
   - {name: 菲律宾4, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-PH-sessid-yEriEbOO-sessTime-30, password: dJIA8BM3}
   - {name: 菲律宾5, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-PH-sessid-VNCOReWe-sessTime-30, password: dJIA8BM3}
 
-  - {name: 巴西1, server: sg-iepl.com, port: 28656, type: socks5, username: 471721-zone-custom-region-BR-sessid-ZejPAPhX-sessTime-15, password: dJIA8BM3}
-  - {name: 巴西2, server: sg-iepl.com, port: 28656, type: socks5, username: 471721-zone-custom-region-BR-sessid-MGsqhTQL-sessTime-15, password: dJIA8BM3}
-  - {name: 巴西3, server: sg-iepl.com, port: 28656, type: socks5, username: 471721-zone-custom-region-BR-sessid-PQ92UOSV-sessTime-15, password: dJIA8BM3}
-  - {name: 巴西4, server: sg-iepl.com, port: 28656, type: socks5, username: 471721-zone-custom-region-BR-sessid-OnJKvEWo-sessTime-15, password: dJIA8BM3}
-  - {name: 巴西5, server: sg-iepl.com, port: 28656, type: socks5, username: 471721-zone-custom-region-BR-sessid-pPx5DQqX-sessTime-15, password: dJIA8BM3}
+  - {name: 巴西1, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-BR-sessid-clL9mr0I-sessTime-15, password: dJIA8BM3}
+  - {name: 巴西2, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-BR-sessid-zsGSlBwC-sessTime-15, password: dJIA8BM3}
+  - {name: 巴西3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-BR-sessid-au5DwjBq-sessTime-15, password: dJIA8BM3}
+  - {name: 巴西4, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-BR-sessid-C54jRpWt-sessTime-15, password: dJIA8BM3}
+  - {name: 巴西5, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-BR-sessid-tUnOsawX-sessTime-15, password: dJIA8BM3}
 
 proxy-groups:
   - name: Googleplay
