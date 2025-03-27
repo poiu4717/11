@@ -58,12 +58,12 @@ proxies:
   - {name: IE    Irish Coffee, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40083, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
   - {name: 🇦🇹 AT   Vienna Coffee, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40082, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
   - {name: "🇨🇦 CA [NEW]", server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40097, type: ss, cipher: chacha20-ietf-poly1305, password: 1febb0b5-bf01-4da7-be80-b5ee755dee4d}
-  - {name: 美国游戏专线1, server: c60s1.portablesubmarines.com, port: 5858, type: ss, cipher: aes-256-gcm, password: uzJN89AskSx5vcEj}
-  - {name: 美国游戏专线2, server: c60s2.portablesubmarines.com, port: 5858, type: ss, cipher: aes-256-gcm, password: uzJN89AskSx5vcEj}
-  - {name: 美国游戏专线3, server: c60s3.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本游戏专线4, server: c60s4.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
-  - {name: 荷兰游戏专线5, server: c60s5.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国游戏专线6, server: c60s801.portablesubmarines.com, port: 5858, type: vmess, uuid: 50e0d49b-19d7-4390-8e67-7bbd52695512, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国游戏专线1, server: c1s1.portablesubmarines.com, port: 12059, type: ss, cipher: aes-256-gcm, password: g8omNa8vP4kcYp9R}
+  - {name: 美国游戏专线2, server: c1s2.portablesubmarines.com, port: 12059, type: ss, cipher: aes-256-gcm, password: g8omNa8vP4kcYp9R}
+  - {name: 美国游戏专线3, server: c1s3.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本游戏专线4, server: c1s4.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
+  - {name: 荷兰游戏专线5, server: c1s5.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国游戏专线6, server: c1s801.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
   - {name: 尼日1, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-9UAJvr9x-sessTime-15, password: dJIA8BM3}
   - {name: 尼日2, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-I1YiNFtI-sessTime-15, password: dJIA8BM3}
   - {name: 尼日3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-wEFC9qss-sessTime-15, password: dJIA8BM3}
