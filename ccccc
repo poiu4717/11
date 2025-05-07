@@ -1,0 +1,175 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+proxies:
+
+  - { name: 香港_01, type: ss, server: hk01.51feitu.com, port: 10001, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_02, type: ss, server: hk02.51feitu.com, port: 10002, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_03, type: ss, server: hk03.51feitu.com, port: 10003, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_04, type: ss, server: hk-pro.51feitu.com, port: 20004, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_05, type: ss, server: hk-pro.51feitu.com, port: 20005, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_06, type: ss, server: hk-pro.51feitu.com, port: 20006, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_07, type: ss, server: hk-pro.51feitu.com, port: 20007, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_08, type: ss, server: hk-pro.51feitu.com, port: 20008, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_09, type: ss, server: hk09.51feitu.com, port: 10009, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true } 
+  - { name: 香港_10, type: ss, server: hk10.51feitu.com, port: 10010, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_11, type: ss, server: hk11.51feitu.com, port: 11011, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_12, type: ss, server: hk12.51feitu.com, port: 11012, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_13, type: ss, server: hk13.51feitu.com, port: 11013, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_14, type: ss, server: hk14.51feitu.com, port: 11014, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_15, type: ss, server: hk15.51feitu.com, port: 11015, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_16, type: ss, server: hk16.51feitu.com, port: 11016, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_17, type: ss, server: hk17.51feitu.com, port: 11017, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_18, type: ss, server: hk18.51feitu.com, port: 11018, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_19, type: ss, server: hk19.51feitu.com, port: 11019, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: 香港_20, type: ss, server: hk20.51feitu.com, port: 11020, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - {name: 美国游戏专线1, server: c1s1.portablesubmarines.com, port: 12059, type: ss, cipher: aes-256-gcm, password: g8omNa8vP4kcYp9R}
+  - {name: 美国游戏专线2, server: c1s2.portablesubmarines.com, port: 12059, type: ss, cipher: aes-256-gcm, password: g8omNa8vP4kcYp9R}
+  - {name: 美国游戏专线3, server: c1s3.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本游戏专线4, server: c1s4.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
+  - {name: 荷兰游戏专线5, server: c1s5.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国游戏专线6, server: c1s801.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
+
+
+  - {name: 缅甸1, server: 34.141.138.189, port: 9000, type: socks5, username: 349faf68-c0bb67bb-3be6f8, password: mobile-mm}
+  - {name: 缅甸2, server: 34.141.138.189, port: 9001, type: socks5, username: 349faf68-c0bb67bb-a84441, password: mobile-mm}
+  - {name: 缅甸3, server: 34.141.138.189, port: 9002, type: socks5, username: 349faf68-c0bb67bb-1e6eb9, password: mobile-mm}
+  - {name: 缅甸4, server: 34.141.138.189, port: 9003, type: socks5, username: 349faf68-c0bb67bb-18c3fe, password: mobile-mm}
+  - {name: 缅甸5, server: 34.141.138.189, port: 9004, type: socks5, username: 349faf68-c0bb67bb-dea73c, password: mobile-mm}
+  - {name: 缅甸6, server: 34.141.138.189, port: 9005, type: socks5, username: 349faf68-c0bb67bb-a0a703, password: mobile-mm}
+  - {name: 缅甸7, server: 34.141.138.189, port: 9006, type: socks5, username: 349faf68-c0bb67bb-26bcf8, password: mobile-mm}
+  - {name: 缅甸8, server: 34.141.138.189, port: 9007, type: socks5, username: 349faf68-c0bb67bb-4a9e13, password: mobile-mm}
+  - {name: 缅甸9, server: 34.141.138.189, port: 9008, type: socks5, username: 349faf68-c0bb67bb-9d013f, password: mobile-mm}
+  - {name: 缅甸10, server: 34.141.138.189, port: 9009, type: socks5, username: 349faf68-c0bb67bb-00727e, password: mobile-mm}
+
+
+
+
+proxy-groups:
+  - name: Googleplay
+    type: select
+    proxies:
+
+      - 缅甸1
+      - 缅甸2
+      - 缅甸3
+      - 缅甸4
+      - 缅甸5
+      - 缅甸6
+      - 缅甸7
+      - 缅甸8
+      - 缅甸9
+      - 缅甸10
+
+
+ 
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    udp: false
+  - name: Proxies
+    type: select
+    proxies:
+     
+      - 香港_01
+      - 香港_02
+      - 香港_03
+      - 香港_04
+      - 香港_05
+      - 香港_06
+      - 香港_07
+      - 香港_08
+      - 香港_09
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - 香港_14
+      - 香港_15
+      - 香港_16
+      - 香港_17
+      - 香港_18
+      - 香港_19
+      - 美国游戏专线1
+      - 美国游戏专线2
+      - 美国游戏专线3
+      - 日本游戏专线4
+      - 荷兰游戏专线5
+      - 美国游戏专线6
+      - 香港_20
+
+ 
+
+ 
+rules:
+  - DOMAIN-SUFFIX,ipapi.co,Googleplay
+  - DOMAIN-SUFFIX,ip-api.com,Googleplay
+  - DOMAIN-SUFFIX,api.ip.sb,Googleplay
+  - DOMAIN-SUFFIX,IPInfo.io,Googleplay
+  - DOMAIN-SUFFIX,ipip.net,Googleplay
+  - DOMAIN-SUFFIX,skk.moe,Googleplay
+  - DOMAIN-KEYWORD,game,Proxies
+  - DOMAIN-KEYWORD,gvt1,Proxies
+  - DOMAIN-KEYWORD,googlevideo.com,Proxies
+  - DOMAIN-KEYWORD,lra8j.com,DIRECT
+  - DOMAIN-KEYWORD,cn,DIRECT
+  - DOMAIN,play-fe.googleapis.com,Googleplay
+  - IP-CIDR,172.217.160.110/32,Googleplay
+  - IP-CIDR,172.217.163.46/32,Googleplay
+  - IP-CIDR,172.217.160.78/32,Googleplay
+  - IP-CIDR,142.251.42.238/32,Googleplay
+  - IP-CIDR,142.251.43.14/32,Googleplay
+  - IP-CIDR,142.251.220.77/32,Googleplay
+  - IP-CIDR,142.251.42.237/32,Googleplay
+  - IP-CIDR,172.217.163.45/32,Googleplay
+  - IP-CIDR,142.250.204.78/32,Googleplay
+  - IP-CIDR,142.250.66.142/32,Googleplay
+  - DOMAIN-SUFFIX,1password.com,DIRECT
+  - DOMAIN-SUFFIX,vultr.com,DIRECT
+  - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+  - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+  - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,baidu-int.com,DIRECT
+  - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+  - DOMAIN,mtalk.google.com,DIRECT
+  - DOMAIN,alt1-mtalk.google.com,DIRECT
+  - DOMAIN,alt2-mtalk.google.com,DIRECT
+  - DOMAIN,alt3-mtalk.google.com,DIRECT
+  - DOMAIN,alt4-mtalk.google.com,DIRECT
+  - DOMAIN,alt5-mtalk.google.com,DIRECT
+  - DOMAIN,alt6-mtalk.google.com,DIRECT
+  - DOMAIN,alt7-mtalk.google.com,DIRECT
+  - DOMAIN,alt8-mtalk.google.com,DIRECT
+  - DOMAIN,alt9-mtalk.google.com,DIRECT
+  - DOMAIN,captive.apple.com,DIRECT
+  - DOMAIN,time-ios.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,push.apple.com,DIRECT
+  - DOMAIN-KEYWORD,github,Proxies
+  - DOMAIN-SUFFIX,github.com,Proxies
+  - DOMAIN-SUFFIX,github.io,Proxies
+  - DOMAIN-SUFFIX,githubapp.com,Proxies
+  - DOMAIN-SUFFIX,githubassets.com,Proxies
+  - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+  - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+  - DOMAIN-SUFFIX,googleapis.cn,Proxies
+  - DOMAIN-SUFFIX,maying.co,Proxies
+  - DOMAIN-SUFFIX,flowercloud.net,Proxies
+  - DOMAIN-SUFFIX,socloud.me,Proxies
+  - DOMAIN-SUFFIX,ytoo.asia,Proxies
+  - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxies
