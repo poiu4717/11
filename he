@@ -183,7 +183,7 @@ rules:
   - DOMAIN-KEYWORD,dbankcloud.cn,Googleplay
   - DOMAIN,hwid-dre.platform.hicloud.com,Googleplay
   - DOMAIN,coupon-dra.iap.cloud.huawei.asia,Googleplay
-  - DOMAIN,dra.dt.hicloud.com,华为分流
+  - DOMAIN,dra.dt.hicloud.com,Googleplay
   - DOMAIN-SUFFIX,1password.com,DIRECT
   - DOMAIN-SUFFIX,vultr.com,DIRECT
   - DOMAIN-SUFFIX,mb3admin.com,DIRECT
