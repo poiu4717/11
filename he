@@ -176,6 +176,14 @@ rules:
   - IP-CIDR,172.217.163.45/32,Googleplay
   - IP-CIDR,142.250.204.78/32,Googleplay
   - IP-CIDR,142.250.66.142/32,Googleplay
+  - DOMAIN,iap-pay-dra.cloud.huawei.asia,Googleplay
+  - DOMAIN,hwid-drcn.platform.hicloud.com,Googleplay
+  - DOMAIN-KEYWORD,cardinalcommerce.com,Googleplay
+  - DOMAIN-KEYWORD,dbankcloud.com,Googleplay
+  - DOMAIN-KEYWORD,dbankcloud.cn,Googleplay
+  - DOMAIN,hwid-dre.platform.hicloud.com,Googleplay
+  - DOMAIN,coupon-dra.iap.cloud.huawei.asia,Googleplay
+  - DOMAIN,dra.dt.hicloud.com,华为分流
   - DOMAIN-SUFFIX,1password.com,DIRECT
   - DOMAIN-SUFFIX,vultr.com,DIRECT
   - DOMAIN-SUFFIX,mb3admin.com,DIRECT
