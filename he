@@ -65,16 +65,16 @@ proxies:
   - {name: 荷兰游戏专线5, server: c1s5.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
   - {name: 美国游戏专线6, server: c1s801.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
 
-  - {name: 埃塞1, server: sg-iepl.com, port: 48859, type: socks5, username: 471721-zone-custom-region-ET-sessid-ffilwxMP-sessTime-30, password: dJIA8BM3}
-  - {name: 埃塞2, server: sg-iepl.com, port: 48859, type: socks5, username: 471721-zone-custom-region-ET-sessid-0pz8OX8t-sessTime-30, password: dJIA8BM3}
-  - {name: 埃塞3, server: sg-iepl.com, port: 48859, type: socks5, username: 471721-zone-custom-region-ET-sessid-3y9svRCV-sessTime-30, password: dJIA8BM3}
-  - {name: 埃塞4, server: sg-iepl.com, port: 48859, type: socks5, username: 471721-zone-custom-region-ET-sessid-A77TMZYC-sessTime-30, password: dJIA8BM3}
-  - {name: 埃塞5, server: sg-iepl.com, port: 48859, type: socks5, username: 471721-zone-custom-region-ET-sessid-ZlnrgR2k-sessTime-30, password: dJIA8BM3}
-  - {name: 埃塞6, server: sg-iepl.com, port: 48859, type: socks5, username: 471721-zone-custom-region-ET-sessid-ugO8PFKR-sessTime-30, password: dJIA8BM3}
-  - {name: 埃塞7, server: sg-iepl.com, port: 48859, type: socks5, username: 471721-zone-custom-region-ET-sessid-TRzc0qmO-sessTime-30, password: dJIA8BM3}
-  - {name: 埃塞8, server: sg-iepl.com, port: 48859, type: socks5, username: 471721-zone-custom-region-ET-sessid-UVtlpbpF-sessTime-30, password: dJIA8BM3}
-  - {name: 埃塞9, server: sg-iepl.com, port: 48859, type: socks5, username: 471721-zone-custom-region-ET-sessid-Cp5nQ9Ca-sessTime-30, password: dJIA8BM3}
-  - {name: 埃塞10, server: sg-iepl.com, port: 48859, type: socks5, username: 471721-zone-custom-region-ET-sessid-RQuJVYNa-sessTime-30, password: dJIA8BM3}
+  - {name: 埃塞1, server: sg-iepl.com, port: 30571, type: socks5, username: 471721-zone-custom-region-ET-sessid-ffilwxMP-sessTime-30, password: dJIA8BM3}
+  - {name: 埃塞2, server: sg-iepl.com, port: 30571, type: socks5, username: 471721-zone-custom-region-ET-sessid-0pz8OX8t-sessTime-30, password: dJIA8BM3}
+  - {name: 埃塞3, server: sg-iepl.com, port: 30571, type: socks5, username: 471721-zone-custom-region-ET-sessid-3y9svRCV-sessTime-30, password: dJIA8BM3}
+  - {name: 埃塞4, server: sg-iepl.com, port: 30571, type: socks5, username: 471721-zone-custom-region-ET-sessid-A77TMZYC-sessTime-30, password: dJIA8BM3}
+  - {name: 埃塞5, server: sg-iepl.com, port: 30571, type: socks5, username: 471721-zone-custom-region-ET-sessid-ZlnrgR2k-sessTime-30, password: dJIA8BM3}
+  - {name: 埃塞6, server: sg-iepl.com, port: 30571, type: socks5, username: 471721-zone-custom-region-ET-sessid-ugO8PFKR-sessTime-30, password: dJIA8BM3}
+  - {name: 埃塞7, server: sg-iepl.com, port: 30571, type: socks5, username: 471721-zone-custom-region-ET-sessid-TRzc0qmO-sessTime-30, password: dJIA8BM3}
+  - {name: 埃塞8, server: sg-iepl.com, port: 30571, type: socks5, username: 471721-zone-custom-region-ET-sessid-UVtlpbpF-sessTime-30, password: dJIA8BM3}
+  - {name: 埃塞9, server: sg-iepl.com, port: 30571, type: socks5, username: 471721-zone-custom-region-ET-sessid-Cp5nQ9Ca-sessTime-30, password: dJIA8BM3}
+  - {name: 埃塞10, server: sg-iepl.com, port: 30571, type: socks5, username: 471721-zone-custom-region-ET-sessid-RQuJVYNa-sessTime-30, password: dJIA8BM3}
 
 proxy-groups:
   - name: Googleplay
