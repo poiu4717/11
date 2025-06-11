@@ -36,12 +36,16 @@ proxies:
   - { name: 香港_18, type: ss, server: hk18.51feitu.com, port: 11018, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
   - { name: 香港_19, type: ss, server: hk19.51feitu.com, port: 11019, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
   - { name: 香港_20, type: ss, server: hk20.51feitu.com, port: 11020, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - {name: 美国游戏专线1, server: c1s1.portablesubmarines.com, port: 12059, type: ss, cipher: aes-256-gcm, password: g8omNa8vP4kcYp9R}
-  - {name: 美国游戏专线2, server: c1s2.portablesubmarines.com, port: 12059, type: ss, cipher: aes-256-gcm, password: g8omNa8vP4kcYp9R}
-  - {name: 美国游戏专线3, server: c1s3.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本游戏专线4, server: c1s4.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
-  - {name: 荷兰游戏专线5, server: c1s5.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国游戏专线6, server: c1s801.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
+  - { name: '🇺🇸 美国_01', type: ss, server: us01.51feitu.com, port: 14001, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: '🇺🇸 美国_02', type: vmess, server: us02.51feitu.com, port: 14002, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, udp: true, network: ws }
+  - { name: '🇺🇸 美国_03', type: ss, server: us03.51feitu.com, port: 14003, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true } 
+  - { name: '🇺🇸 IEPL×2-美国_04', type: vmess, server: us-pro.51feitu.com, port: 24004, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, udp: true, network: ws }
+  - { name: '🇺🇸 IEPL×2-美国_05', type: ss, server: us-pro.51feitu.com, port: 24005, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: '🇺🇸 IEPL×2-美国_06', type: vmess, server: us-pro.51feitu.com, port: 24006, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, udp: true, network: ws }
+  - { name: '🇺🇸 IEPL×2-美国_07', type: ss, server: us-pro.51feitu.com, port: 24007, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: '🇺🇸 IEPL×2-美国_08', type: vmess, server: us-pro.51feitu.com, port: 24008, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, udp: true, network: ws }
+  - { name: '🇺🇸 美国_09', type: ss, server: us09.51feitu.com, port: 14009, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - { name: '🇺🇸 美国_10', type: vmess, server: us10.51feitu.com, port: 14010, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, udp: true, network: ws }
   - {name: 尼日1, server: sg-iepl.com, port: 11067, type: socks5, username: 47353961-zone-custom-region-NG-sessid-9UAJvr9x-sessTime-15, password: dJIA8BM3}
   - {name: 尼日2, server: sg-iepl.com, port: 11067, type: socks5, username: 47353961-zone-custom-region-NG-sessid-I1YiNFtI-sessTime-15, password: dJIA8BM3}
   - {name: 尼日3, server: sg-iepl.com, port: 11067, type: socks5, username: 47353961-zone-custom-region-NG-sessid-wEFC9qss-sessTime-15, password: dJIA8BM3}
