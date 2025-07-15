@@ -15,43 +15,37 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - {name: 🇭🇰 香港_01, server: hk01-node.51feitu.com, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇭🇰 香港_02, server: hk02-node.51feitu.com, port: 10002, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk02-node.51feitu.com}}}
+  - {name: 🇭🇰 香港_03, server: hk03-node.51feitu.com, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇭🇰 三网×2-香港_04, server: hk-pro-node.51feitu.com, port: 20004, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-pro-node.51feitu.com}}}
+  - {name: 🇭🇰 三网×2-香港_05, server: hk-pro-node.51feitu.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇭🇰 三网×2-香港_06, server: hk-pro-node.51feitu.com, port: 20006, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-pro-node.51feitu.com}}}
+  - {name: 🇭🇰 三网×2-香港_07, server: hk-pro-node.51feitu.com, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇭🇰 三网×2-香港_08, server: hk-pro-node.51feitu.com, port: 20008, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-pro-node.51feitu.com}}}
+  - {name: 🇭🇰 香港_09, server: hk09-node.51feitu.com, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇭🇰 香港_10, server: hk10-node.51feitu.com, port: 10010, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk10-node.51feitu.com}}}
+  - {name: 🇭🇰 香港_11, server: hk11-node.51feitu.com, port: 11011, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇭🇰 香港_12, server: hk12-node.51feitu.com, port: 11012, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk12-node.51feitu.com}}}
+  - {name: 🇭🇰 香港_13, server: hk13-node.51feitu.com, port: 11013, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇭🇰 香港_14, server: hk14-node.51feitu.com, port: 11014, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk14-node.51feitu.com}}}
+  - {name: 🇭🇰 香港_15-v6, server: hk15-node.51feitu.com, port: 11015, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇭🇰 香港_16-v6, server: hk16-node.51feitu.com, port: 11016, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk16-node.51feitu.com}}}
+  - {name: 🇭🇰 香港_17-v6, server: hk17-node.51feitu.com, port: 11017, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇭🇰 香港_18-v6, server: hk18-node.51feitu.com, port: 11018, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk18-node.51feitu.com}}}
+  - {name: 🇭🇰 香港_19-v6, server: hk19-node.51feitu.com, port: 11019, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇭🇰 香港_20-v6, server: hk20-node.51feitu.com, port: 11020, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk20-node.51feitu.com}}}
 
-  - { name: 香港_01, type: ss, server: hk01.51feitu.com, port: 10001, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_02, type: ss, server: hk02.51feitu.com, port: 10002, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_03, type: ss, server: hk03.51feitu.com, port: 10003, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_04, type: ss, server: hk-pro.51feitu.com, port: 20004, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_05, type: ss, server: hk-pro.51feitu.com, port: 20005, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_06, type: ss, server: hk-pro.51feitu.com, port: 20006, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_07, type: ss, server: hk-pro.51feitu.com, port: 20007, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_08, type: ss, server: hk-pro.51feitu.com, port: 20008, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_09, type: ss, server: hk09.51feitu.com, port: 10009, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true } 
-  - { name: 香港_10, type: ss, server: hk10.51feitu.com, port: 10010, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_11, type: ss, server: hk11.51feitu.com, port: 11011, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_12, type: ss, server: hk12.51feitu.com, port: 11012, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_13, type: ss, server: hk13.51feitu.com, port: 11013, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_14, type: ss, server: hk14.51feitu.com, port: 11014, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_15, type: ss, server: hk15.51feitu.com, port: 11015, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_16, type: ss, server: hk16.51feitu.com, port: 11016, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_17, type: ss, server: hk17.51feitu.com, port: 11017, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_18, type: ss, server: hk18.51feitu.com, port: 11018, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_19, type: ss, server: hk19.51feitu.com, port: 11019, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: 香港_20, type: ss, server: hk20.51feitu.com, port: 11020, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: '🇺🇸 美国_01', type: ss, server: us01.51feitu.com, port: 14001, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: '🇺🇸 美国_02', type: vmess, server: us02.51feitu.com, port: 14002, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, udp: true, network: ws }
-  - { name: '🇺🇸 美国_03', type: ss, server: us03.51feitu.com, port: 14003, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true } 
-  - { name: '🇺🇸 IEPL×2-美国_04', type: vmess, server: us-pro.51feitu.com, port: 24004, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, udp: true, network: ws }
-  - { name: '🇺🇸 IEPL×2-美国_05', type: ss, server: us-pro.51feitu.com, port: 24005, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: '🇺🇸 IEPL×2-美国_06', type: vmess, server: us-pro.51feitu.com, port: 24006, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, udp: true, network: ws }
-  - { name: '🇺🇸 IEPL×2-美国_07', type: ss, server: us-pro.51feitu.com, port: 24007, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: '🇺🇸 IEPL×2-美国_08', type: vmess, server: us-pro.51feitu.com, port: 24008, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, udp: true, network: ws }
-  - { name: '🇺🇸 美国_09', type: ss, server: us09.51feitu.com, port: 14009, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
-  - { name: '🇺🇸 美国_10', type: vmess, server: us10.51feitu.com, port: 14010, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, udp: true, network: ws }
-  - {name: 美国游戏专线1, server: c1s1.portablesubmarines.com, port: 12059, type: ss, cipher: aes-256-gcm, password: g8omNa8vP4kcYp9R}
-  - {name: 美国游戏专线2, server: c1s2.portablesubmarines.com, port: 12059, type: ss, cipher: aes-256-gcm, password: g8omNa8vP4kcYp9R}
-  - {name: 美国游戏专线3, server: c1s3.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本游戏专线4, server: c1s4.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
-  - {name: 荷兰游戏专线5, server: c1s5.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国游戏专线6, server: c1s801.portablesubmarines.com, port: 12059, type: vmess, uuid: 8fc985d1-1adc-4a7d-b886-d78c48f70dc2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_01, server: us01-node.51feitu.com, port: 14001, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇺🇸 美国_02, server: us02-node.51feitu.com, port: 14002, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us02-node.51feitu.com}}}
+  - {name: 🇺🇸 美国_03, server: us03-node.51feitu.com, port: 14003, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇺🇸 三网×2-美国_04, server: us-pro-node.51feitu.com, port: 24004, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-pro-node.51feitu.com}}}
+  - {name: 🇺🇸 三网×2-美国_05, server: us-pro-node.51feitu.com, port: 24005, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇺🇸 三网×2-美国_06, server: us-pro-node.51feitu.com, port: 24006, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-pro-node.51feitu.com}}}
+  - {name: 🇺🇸 三网×2-美国_07, server: us-pro-node.51feitu.com, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇺🇸 三网×2-美国_08, server: us-pro-node.51feitu.com, port: 24008, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-pro-node.51feitu.com}}}
+  - {name: 🇺🇸 美国_09, server: us09-node.51feitu.com, port: 14009, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
+  - {name: 🇺🇸 美国_10, server: us10-node.51feitu.com, port: 14010, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us10-node.51feitu.com}}}
   - {name: 尼日1, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-9UAJvr9x-sessTime-15, password: dJIA8BM3}
   - {name: 尼日2, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-I1YiNFtI-sessTime-15, password: dJIA8BM3}
   - {name: 尼日3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-NG-sessid-wEFC9qss-sessTime-15, password: dJIA8BM3}
@@ -225,43 +219,37 @@ proxy-groups:
     type: select
     proxies:
      
-      - 香港_01
-      - 香港_02
-      - 香港_03
-      - 香港_04
-      - 香港_05
-      - 香港_06
-      - 香港_07
-      - 香港_08
-      - 香港_09
-      - 香港_10
-      - 香港_11
-      - 香港_12
-      - 香港_13
-      - 香港_14
-      - 香港_15
-      - 香港_16
-      - 香港_17
-      - 香港_18
-      - 香港_19
-      - 美国游戏专线1
-      - 美国游戏专线2
-      - 美国游戏专线3
-      - 日本游戏专线4
-      - 荷兰游戏专线5
-      - 美国游戏专线6
-      - 香港_20
+      - 🇭🇰 香港_01
+      - 🇭🇰 香港_02
+      - 🇭🇰 香港_03
+      - 🇭🇰 三网×2-香港_04
+      - 🇭🇰 三网×2-香港_05
+      - 🇭🇰 三网×2-香港_06
+      - 🇭🇰 三网×2-香港_07
+      - 🇭🇰 三网×2-香港_08
+      - 🇭🇰 香港_09
+      - 🇭🇰 香港_10
+      - 🇭🇰 香港_11
+      - 🇭🇰 香港_12
+      - 🇭🇰 香港_13
+      - 🇭🇰 香港_14
+      - 🇭🇰 香港_15-v6
+      - 🇭🇰 香港_16-v6
+      - 🇭🇰 香港_17-v6
+      - 🇭🇰 香港_18-v6
+      - 🇭🇰 香港_19-v6
+      - 🇭🇰 香港_20-v6
 
-      - '🇺🇸 美国_01'
-      - '🇺🇸 美国_02'
-      - '🇺🇸 美国_03'
-      - '🇺🇸 IEPL×2-美国_04'
-      - '🇺🇸 IEPL×2-美国_05'
-      - '🇺🇸 IEPL×2-美国_06'
-      - '🇺🇸 IEPL×2-美国_07'
-      - '🇺🇸 IEPL×2-美国_08'
-      - '🇺🇸 美国_09'
-      - '🇺🇸 美国_10'
+      - 🇺🇸 美国_01
+      - 🇺🇸 美国_02
+      - 🇺🇸 美国_03
+      - 🇺🇸 三网×2-美国_04
+      - 🇺🇸 三网×2-美国_05
+      - 🇺🇸 三网×2-美国_06
+      - 🇺🇸 三网×2-美国_07
+      - 🇺🇸 三网×2-美国_08
+      - 🇺🇸 美国_09
+      - 🇺🇸 美国_10
 
 
  
