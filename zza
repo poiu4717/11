@@ -36,12 +36,12 @@ proxies:
   - {name: 🇭🇰 香港_19-v6, server: hk19-node.51feitu.com, port: 11019, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
   - {name: 🇭🇰 香港_20-v6, server: hk20-node.51feitu.com, port: 11020, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk20-node.51feitu.com}}}
   - {name: 日本, server: 49.235.120.71, port: 28164, type: ss, cipher: chacha20-ietf-poly1305, password: IdtCKKdVYv}
-  - {name: 日本专线5, server: c12s801.portablesubmarines.com, port: 19256, type: vmess, uuid: 3e6f40b8-4590-49db-8c14-e1a466f069af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, }
-  - {name: 日本专线4, server: c12s5.portablesubmarines.com, port: 19256, type: vmess, uuid: 3e6f40b8-4590-49db-8c14-e1a466f069af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, }
+  - {name: 日本专线5, server: c12s801.portablesubmarines.com, port: 19256, type: vmess, uuid: 3e6f40b8-4590-49db-8c14-e1a466f069af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 日本专线4, server: c12s5.portablesubmarines.com, port: 19256, type: vmess, uuid: 3e6f40b8-4590-49db-8c14-e1a466f069af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线, server: c12s1.portablesubmarines.com, port: 19256, type: ss, cipher: aes-256-gcm, password: p6e4WwBjSXsTkvSH}
-  - {name: 日本专线1, server: c12s3.portablesubmarines.com, port: 19256, type: vmess, uuid: 3e6f40b8-4590-49db-8c14-e1a466f069af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, }
+  - {name: 日本专线1, server: c12s3.portablesubmarines.com, port: 19256, type: vmess, uuid: 3e6f40b8-4590-49db-8c14-e1a466f069af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线2, server: c12s2.portablesubmarines.com, port: 19256, type: ss, cipher: aes-256-gcm, password: p6e4WwBjSXsTkvSH}
-  - {name: 日本专线3, server: c12s4.portablesubmarines.com, port: 19256, type: vmess, uuid: 3e6f40b8-4590-49db-8c14-e1a466f069af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, }
+  - {name: 日本专线3, server: c12s4.portablesubmarines.com, port: 19256, type: vmess, uuid: 3e6f40b8-4590-49db-8c14-e1a466f069af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本1, server: zza.wenzhongzz.dpdns.org, port: 37830, type: ss, cipher: chacha20-ietf-poly1305, password: IdtCKKdVYv}
   - {name: 🇺🇸 美国_01, server: us01-node.51feitu.com, port: 14001, type: ss, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52}
   - {name: 🇺🇸 美国_02, server: us02-node.51feitu.com, port: 14002, type: vmess, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us02-node.51feitu.com}}}
