@@ -36,6 +36,9 @@ proxies:
   - { name: 香港_18, type: ss, server: hk18.51feitu.com, port: 11018, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
   - { name: 香港_19, type: ss, server: hk19.51feitu.com, port: 11019, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
   - { name: 香港_20, type: ss, server: hk20.51feitu.com, port: 11020, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
+  - {name: 日本, server: 49.235.120.71, port: 28164, type: ss, cipher: chacha20-ietf-poly1305, password: IdtCKKdVYv}
+
+  - {name: 日本1, server: zza.wenzhongzz.dpdns.org, port: 37830, type: ss, cipher: chacha20-ietf-poly1305, password: IdtCKKdVYv}
   - { name: '🇺🇸 美国_01', type: ss, server: us01.51feitu.com, port: 14001, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true }
   - { name: '🇺🇸 美国_02', type: vmess, server: us02.51feitu.com, port: 14002, uuid: c0c94106-69ff-486e-aa79-8559277aeb52, alterId: 0, cipher: auto, udp: true, network: ws }
   - { name: '🇺🇸 美国_03', type: ss, server: us03.51feitu.com, port: 14003, cipher: chacha20-ietf-poly1305, password: c0c94106-69ff-486e-aa79-8559277aeb52, udp: true } 
@@ -215,7 +218,8 @@ proxy-groups:
       - '🇺🇸 IEPL×2-美国_08'
       - '🇺🇸 美国_09'
       - '🇺🇸 美国_10'
-
+      - 日本
+      - 日本1
  
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
