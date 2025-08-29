@@ -209,9 +209,9 @@ rules:
   - DOMAIN-SUFFIX,IPInfo.io,Googleplay
   - DOMAIN-SUFFIX,ipip.net,Googleplay
   - DOMAIN-SUFFIX,skk.moe,Googleplay
-  - DOMAIN-KEYWORD,game,Proxies
-  - DOMAIN-KEYWORD,gvt1,Proxies
-  - DOMAIN-KEYWORD,googlevideo.com,Proxies
+  - DOMAIN-KEYWORD,game,Googleplay
+  - DOMAIN-KEYWORD,gvt1,Googleplay
+  - DOMAIN-KEYWORD,googlevideo.com,Googleplay
   - DOMAIN-KEYWORD,lra8j.com,DIRECT
   - DOMAIN-KEYWORD,cn,DIRECT
   - DOMAIN,play-fe.googleapis.com,Googleplay
