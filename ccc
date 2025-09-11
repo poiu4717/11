@@ -35,8 +35,8 @@ proxies:
   - {name: 尼日11, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-NG-session-aPXpbz3Q-sessTime-120, password: 31303321}
   - {name: 尼日12, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-NG-session-yMk7sEdJ-sessTime-120, password: 31303321}
   - {name: 尼日13, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-NG-session-tedzNhEC-sessTime-120, password: 31303321}
-  - {name: 尼日14, server: as.66aca11cc1b3996a.abcproxy.vip, port: 4950, type: socks5, username: 2wIErKaVja-zone-mob-region-NG-session-NF68JK7T-sessTime-120, password: 31303321}
-  - {name: 尼日15, server: as.66aca11cc1b3996a.abcproxy.vip, port: 4950, type: socks5, username: 2wIErKaVja-zone-mob-region-NG-session-7ytrYm7S-sessTime-120, password: 31303321}
+  - {name: 尼日14, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-NG-session-NF68JK7T-sessTime-120, password: 31303321}
+  - {name: 尼日15, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-NG-session-7ytrYm7S-sessTime-120, password: 31303321}
   - {name: 埃及1, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-zfMZZBQq-sessTime-15, password: dJIA8BM3}
   - {name: 埃及2, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-SmmPVJOy-sessTime-15, password: dJIA8BM3}
   - {name: 埃及3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-EG-sessid-Eyhoe4xZ-sessTime-15, password: dJIA8BM3}
