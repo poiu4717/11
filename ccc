@@ -102,6 +102,17 @@ proxies:
   - {name: 孟加拉3, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-BD-sessid-pNVXDukb-sessTime-15, password: dJIA8BM3}
   - {name: 孟加拉4, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-BD-sessid-7rHwFk7G-sessTime-15, password: dJIA8BM3}
   - {name: 孟加拉5, server: sg-iepl.com, port: 28656, type: socks5, username: 47353961-zone-custom-region-BD-sessid-CToInjsn-sessTime-15, password: dJIA8BM3}
+proxy-providers:
+          机场:
+            type: http
+            url: https://jjsubmarines.com/members/getsub.php?service=1241483&id=a1b6bca6-56cc-4239-b655-2d2781ae7e13
+            interval: 86400
+            path: ./proxy_provider/jc.yaml
+            udp: false
+            health-check:
+              enable: true
+              interval: 600
+              url: http://www.gstatic.com/generate_204
 
 proxy-groups:
   - name: Googleplay
@@ -200,7 +211,7 @@ proxy-groups:
       - 美国专线2
       - 日本专线3
       - 荷兰专线4
-      - 美国专线5
+      - 机场
  
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
