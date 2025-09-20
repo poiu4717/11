@@ -211,7 +211,15 @@ proxy-groups:
       - 美国专线2
       - 日本专线3
       - 荷兰专线4
+    use:
       - 机场
+    type: select
+    disable-udp: true
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
  
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
