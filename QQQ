@@ -75,11 +75,11 @@ proxies:
   - {name: 哥伦比亚3, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-CO-session-FbSAb6jN-sessTime-60, password: 31303321}
   - {name: 哥伦比亚4, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-CO-session-f7dkdSc6-sessTime-60, password: 31303321}
   - {name: 哥伦比亚5, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-CO-session-P4rQn6pw-sessTime-60, password: 31303321}
-  - {name: 印尼1, server: sg-iepl.com, port: 29933, type: socks5, username: 47353961-zone-custom-region-ID-sessid-RSIzQmeb-sessTime-30, password: 31303321}
-  - {name: 印尼2, server: sg-iepl.com, port: 29933, type: socks5, username: 47353961-zone-custom-region-ID-sessid-4QH36SVh-sessTime-30, password: 31303321}
-  - {name: 印尼3, server: sg-iepl.com, port: 29933, type: socks5, username: 47353961-zone-custom-region-ID-sessid-F3DmVcNU-sessTime-30, password: 31303321}
-  - {name: 印尼4, server: sg-iepl.com, port: 29933, type: socks5, username: 47353961-zone-custom-region-ID-sessid-9qTQumKu-sessTime-30, password: 31303321}
-  - {name: 印尼5, server: sg-iepl.com, port: 29933, type: socks5, username: 47353961-zone-custom-region-ID-sessid-rcGCDSkQ-sessTime-30, password: 31303321}
+  - {name: 印尼1, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-ID-session-Bt8se4KP-sessTime-60, password: 31303321}
+  - {name: 印尼2, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-ID-session-cbsaJ7RY-sessTime-60, password: 31303321}
+  - {name: 印尼3, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-ID-session-DxwJmjXr-sessTime-60, password: 31303321}
+  - {name: 印尼4, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-ID-session-GmP8H7QH-sessTime-60, password: 31303321}
+  - {name: 印尼5, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-ID-session-rKyxAkdN-sessTime-60, password: 31303321}
   - {name: 哥伦比亚6, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-CO-session-sNGbpFHj-sessTime-60, password: 31303321}
   - {name: 哥伦比亚7, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-CO-session-ZypGpB4e-sessTime-60, password: 31303321}
   - {name: 哥伦比亚8, server: sg-iepl.com, port: 29933, type: socks5, username: 2wIErKaVja-zone-mob-region-CO-session-XHxDPMzX-sessTime-60, password: 31303321}
