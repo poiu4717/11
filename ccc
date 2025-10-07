@@ -205,7 +205,7 @@ proxy-groups:
 
  
 rules:
-  - DOMAIN-SUFFIX,ipapi.co,Googleplay
+  - DOMAIN-SUFFIX,ipjiance.com,Googleplay
   - DOMAIN-SUFFIX,ip-api.com,Googleplay
   - DOMAIN-SUFFIX,api.ip.sb,Googleplay
   - DOMAIN-SUFFIX,IPInfo.io,Googleplay
