@@ -25,6 +25,7 @@ proxies:
   - {name: 美国专线2, server: c2s2.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
   - {name: 美国专线1, server: c2s3.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线3, server: c2s4.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {"type":"vless","name":"香港","server":"wen.poiu4717.cc.cd","port":443,"uuid":"e92632d8-6e5e-41d6-b574-17d30f2ff9a7","network":"ws","tls":true,"servername":"wen.poiu4717.cc.cd","ws-opts":{"path":"/ray","headers":{"Host":"wen.poiu4717.cc.cd"}}}
   - {name: 尼日1, server: as.miyaip.online, port: 10003, type: socks5, username: 1m7s3yzbqumobmiyaip_g-NG_f-85769587154_sid-694727430_l-30, password: 177631238695966}
   - {name: 尼日2, server: as.miyaip.online, port: 10003, type: socks5, username: 1m7s3yzbqumobmiyaip_g-NG_f-85769587154_sid-768527863_l-30, password: 177631238695966}
   - {name: 尼日3, server: as.miyaip.online, port: 10003, type: socks5, username: 1m7s3yzbqumobmiyaip_g-NG_f-85769587154_sid-537394947_l-30, password: 177631238695966}
@@ -99,7 +100,7 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-
+      - 香港
       - '🇭🇰 香港_01'
       - '🇭🇰 香港_02'
       - '🇭🇰 香港_03'
