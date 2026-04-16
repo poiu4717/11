@@ -25,36 +25,36 @@ proxies:
   - {name: 美国专线2, server: c2s2.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
   - {name: 美国专线1, server: c2s3.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线3, server: c2s4.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 尼日1, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-035274623_l-30, password: 197836245}
-  - {name: 尼日2, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-135664225_l-30, password: 197836245}
-  - {name: 尼日3, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-129372444_l-30, password: 197836245}
-  - {name: 尼日4, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-951043463_l-30, password: 197836245}
-  - {name: 尼日5, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-011068446_l-30, password: 197836245}
-  - {name: 尼日6, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-106278638_l-30, password: 197836245}
-  - {name: 尼日7, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-222557778_l-30, password: 197836245}
-  - {name: 尼日8, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-508140134_l-30, password: 197836245}
-  - {name: 尼日9, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-719864174_l-30, password: 197836245}
-  - {name: 尼日10, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-210686284_l-30, password: 197836245}
-  - {name: 土耳其1, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-475825158_l-30, password: 197836245}
-  - {name: 土耳其2, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-425857057_l-30, password: 197836245}   
-  - {name: 土耳其3, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-441924573_l-30, password: 197836245}
-  - {name: 土耳其4, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-864887410_l-30, password: 197836245}
-  - {name: 土耳其5, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-731101950_l-30, password: 197836245}  
-  - {name: 巴西1, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-931965194_l-30, password: 197836245}
-  - {name: 巴西2, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-094005792_l-30, password: 197836245}
-  - {name: 巴西3, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-616573971_l-30, password: 197836245}
-  - {name: 巴西4, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-419968753_l-30, password: 197836245}
-  - {name: 巴西5, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-110051531_l-30, password: 197836245}
-  - {name: 印尼1, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-673747926_l-30, password: 197836245}
-  - {name: 印尼2, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-591562186_l-30, password: 197836245}
-  - {name: 印尼3, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-093798121_l-30, password: 197836245}
-  - {name: 印尼4, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-206174990_l-30, password: 197836245}
-  - {name: 印尼5, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-297193524_l-30, password: 197836245}
-  - {name: 印尼6, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-669670044_l-30, password: 197836245}
-  - {name: 印尼7, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-477972275_l-30, password: 197836245}
-  - {name: 印尼8, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-880499295_l-30, password: 197836245}
-  - {name: 印尼9, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-425430255_l-30, password: 197836245}
-  - {name: 印尼10, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-295430779_l-30, password: 197836245}
+  - {name: 尼日1, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-035274623_l-30, password: 197836245}
+  - {name: 尼日2, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-135664225_l-30, password: 197836245}
+  - {name: 尼日3, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-129372444_l-30, password: 197836245}
+  - {name: 尼日4, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-951043463_l-30, password: 197836245}
+  - {name: 尼日5, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-011068446_l-30, password: 197836245}
+  - {name: 尼日6, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-106278638_l-30, password: 197836245}
+  - {name: 尼日7, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-222557778_l-30, password: 197836245}
+  - {name: 尼日8, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-508140134_l-30, password: 197836245}
+  - {name: 尼日9, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-719864174_l-30, password: 197836245}
+  - {name: 尼日10, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-210686284_l-30, password: 197836245}
+  - {name: 土耳其1, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-475825158_l-30, password: 197836245}
+  - {name: 土耳其2, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-425857057_l-30, password: 197836245}   
+  - {name: 土耳其3, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-441924573_l-30, password: 197836245}
+  - {name: 土耳其4, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-864887410_l-30, password: 197836245}
+  - {name: 土耳其5, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-731101950_l-30, password: 197836245}  
+  - {name: 巴西1, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-931965194_l-30, password: 197836245}
+  - {name: 巴西2, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-094005792_l-30, password: 197836245}
+  - {name: 巴西3, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-616573971_l-30, password: 197836245}
+  - {name: 巴西4, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-419968753_l-30, password: 197836245}
+  - {name: 巴西5, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-110051531_l-30, password: 197836245}
+  - {name: 印尼1, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-673747926_l-30, password: 197836245}
+  - {name: 印尼2, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-591562186_l-30, password: 197836245}
+  - {name: 印尼3, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-093798121_l-30, password: 197836245}
+  - {name: 印尼4, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-206174990_l-30, password: 197836245}
+  - {name: 印尼5, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-297193524_l-30, password: 197836245}
+  - {name: 印尼6, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-669670044_l-30, password: 197836245}
+  - {name: 印尼7, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-477972275_l-30, password: 197836245}
+  - {name: 印尼8, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-880499295_l-30, password: 197836245}
+  - {name: 印尼9, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-425430255_l-30, password: 197836245}
+  - {name: 印尼10, server: sg-iepl.com, port: 21157, type: socks5, username: 1x7x3zazkemobmiyaip_g-ID_f-1005_sid-295430779_l-30, password: 197836245}
 
 
 
