@@ -36,9 +36,11 @@ proxies:
   - {name: 尼日9, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-719864174_l-30, password: 197836245}
   - {name: 尼日10, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-210686284_l-30, password: 197836245}
   - {name: 土耳其1, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-475825158_l-30, password: 197836245}
-  - {name: 土耳其2, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-425857057_l-30, password: 197836245}   - {name: 土耳其3, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-441924573_l-30, password: 197836245}
+  - {name: 土耳其2, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-425857057_l-30, password: 197836245}   
+  - {name: 土耳其3, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-441924573_l-30, password: 197836245}
   - {name: 土耳其4, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-864887410_l-30, password: 197836245}
-  - {name: 土耳其5, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-731101950_l-30, password: 197836245}   - {name: 巴西1, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-931965194_l-30, password: 197836245}
+  - {name: 土耳其5, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-TR_f-1005_sid-731101950_l-30, password: 197836245}  
+  - {name: 巴西1, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-931965194_l-30, password: 197836245}
   - {name: 巴西2, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-094005792_l-30, password: 197836245}
   - {name: 巴西3, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-616573971_l-30, password: 197836245}
   - {name: 巴西4, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-BR_f-1005_sid-419968753_l-30, password: 197836245}
