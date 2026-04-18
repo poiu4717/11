@@ -60,8 +60,6 @@ proxies:
   - {name: 菲律宾3, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-PH_f-1005_sid-019193156_l-30, password: 197836245}
   - {name: 菲律宾4, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-PH_f-1005_sid-948564314_l-30, password: 197836245}
   - {name: 菲律宾5, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-PH_f-1005_sid-491588905_l-30, password: 197836245}
-
-
 proxy-groups:
   - name: Googleplay
     type: select
@@ -88,7 +86,6 @@ proxy-groups:
       - 印尼8
       - 印尼9
       - 印尼10
-  
       - 土耳其1
       - 土耳其2
       - 土耳其3
@@ -107,7 +104,6 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-
       - '🇭🇰 香港_01'
       - '🇭🇰 香港_02'
       - '🇭🇰 香港_03'
