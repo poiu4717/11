@@ -26,11 +26,11 @@ proxies:
   - {name: 美国专线1, server: c2s3.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线3, server: c2s4.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {"type":"vless","name":"香港","server":"wen.poiu4717.cc.cd","port":443,"uuid":"e92632d8-6e5e-41d6-b574-17d30f2ff9a7","network":"ws","tls":true,"servername":"wen.poiu4717.cc.cd","ws-opts":{"path":"/ray","headers":{"Host":"wen.poiu4717.cc.cd"}}}
-  - {name: 尼日1, server: as.miyaip.online, port: 10003, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-72567_sid-891065353_l-30, password: 19753678567618}
-  - {name: 尼日2, server: as.miyaip.online, port: 10003, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-72567_sid-049207874_l-30, password: 19753678567618}
-  - {name: 尼日3, server: as.miyaip.online, port: 10003, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-72567_sid-022154371_l-30, password: 19753678567618}
-  - {name: 尼日4, server: as.miyaip.online, port: 10003, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-72567_sid-386015164_l-30, password: 19753678567618}
-  - {name: 尼日5, server: as.miyaip.online, port: 10001, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-72567_sid-180839122_l-30, password: 19753678567618}
+  - {name: 尼日1, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-041191900_l-30, password: 197836245}
+  - {name: 尼日2, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-721992666_l-30, password: 197836245}
+  - {name: 尼日3, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-158773907_l-30, password: 197836245}
+  - {name: 尼日4, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-112481939_l-30, password: 197836245}
+  - {name: 尼日5, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-567342757_l-30, password: 197836245}
   - {name: 尼日6, server: prem.us.iprocket.io, port: 9595, type: socks5, username: move86495482-cel-NG-sid-926839015, password: Qqn9T8ImeV6kUG8}
   - {name: 尼日7, server: prem.us.iprocket.io, port: 9595, type: socks5, username: move86495482-cel-NG-sid-823259819, password: Qqn9T8ImeV6kUG8}
   - {name: 尼日8, server: prem.us.iprocket.io, port: 9595, type: socks5, username: move86495482-cel-NG-sid-937360504, password: Qqn9T8ImeV6kUG8}
