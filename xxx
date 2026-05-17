@@ -14,12 +14,7 @@ dns:
     - tls://dns.google:853
 proxies:
 
-  - { name: '🇭🇰 香港_01', type: ss, server: ft-hk-xygh-by.51feitu.com, port: 10001, cipher: chacha20-ietf-poly1305, password: 2bb73d42-8a17-4a46-8155-44955355cc62, udp: true }
-  - { name: '🇭🇰 香港_02', type: vmess, server: ft-hk-xygh-by.51feitu.com, port: 10002, uuid: 2bb73d42-8a17-4a46-8155-44955355cc62, alterId: 0, cipher: auto, udp: true, network: ws }
-  - { name: '🇭🇰 香港_03', type: ss, server: ft-hk-xygh-by.51feitu.com, port: 10003, cipher: chacha20-ietf-poly1305, password: 2bb73d42-8a17-4a46-8155-44955355cc62, udp: true }
-  - { name: '🇭🇰 三网×2-香港_04', type: vmess, server: ft-hk-xygh-pro.51feitu.com, port: 20004, uuid: 2bb73d42-8a17-4a46-8155-44955355cc62, alterId: 0, cipher: auto, udp: true, network: ws }
-  - { name: '🇭🇰 三网×2-香港_05', type: ss, server: ft-hk-xygh-pro.51feitu.com, port: 20005, cipher: chacha20-ietf-poly1305, password: 2bb73d42-8a17-4a46-8155-44955355cc62, udp: true }
-  - { name: '🇭🇰 三网×2-香港_06', type: vmess, server: ft-hk-xygh-pro.51feitu.com, port: 20006, uuid: 2bb73d42-8a17-4a46-8155-44955355cc62, alterId: 0, cipher: auto, udp: true, network: ws }
+
   - {name: 荷兰专线4, server: c2s5.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 美国专线, server: c2s1.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
   - {name: 美国专线2, server: c2s2.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
@@ -100,13 +95,8 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - 香港
-      - '🇭🇰 香港_01'
-      - '🇭🇰 香港_02'
-      - '🇭🇰 香港_03'
-      - '🇭🇰 三网×2-香港_04'
-      - '🇭🇰 三网×2-香港_05'
-      - '🇭🇰 三网×2-香港_06'
+
+
       - 美国专线
       - 美国专线1
       - 美国专线2
