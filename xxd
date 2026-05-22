@@ -1,0 +1,142 @@
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+proxies:
+
+  - {name: 荷兰专线4, server: c2s5.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 美国专线, server: c2s1.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
+  - {name: 美国专线2, server: c2s2.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
+  - {name: 美国专线1, server: c2s3.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 日本专线3, server: c2s4.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 乌克兰6, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-459955586_l-30, password: 197836245}
+  - {name: 乌克兰7, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-668666990_l-30, password: 197836245}
+  - {name: 乌克兰8, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-217742899_l-30, password: 197836245}
+  - {name: 乌克兰9, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-830603053_l-30, password: 197836245}
+  - {name: 乌克兰10, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-051379454_l-30, password: 197836245}
+  - {name: 乌克兰11, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-058524322_l-30, password: 197836245}
+  - {name: 乌克兰12, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-252609298_l-30, password: 197836245}
+  - {name: 乌克兰13, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-704907739_l-30, password: 197836245}
+  - {name: 乌克兰14, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-553146448_l-30, password: 197836245}
+  - {name: 乌克兰15, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-765715814_l-30, password: 197836245}
+
+  - {name: 乌克兰1, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-318048044_l-30, password: 197836245}
+  - {name: 乌克兰2, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-287043779_l-30, password: 197836245}
+  - {name: 乌克兰3, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-544131269_l-30, password: 197836245}
+  - {name: 乌克兰4, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-363816665_l-30, password: 197836245}
+  - {name: 乌克兰5, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-UA_f-1005_sid-945054677_l-30, password: 197836245}
+
+
+
+proxy-groups:
+  - name: Googleplay
+    type: select
+    proxies:
+
+      - 乌克兰1
+      - 乌克兰2
+      - 乌克兰3
+      - 乌克兰4
+      - 乌克兰5
+
+      - 乌克兰6
+      - 乌克兰7
+      - 乌克兰8
+      - 乌克兰9
+      - 乌克兰10
+
+      - 乌克兰11
+      - 乌克兰12
+      - 乌克兰13
+      - 乌克兰14
+      - 乌克兰15
+
+  - name: Proxies
+    type: select
+    proxies:
+
+
+      - 美国专线
+      - 美国专线1
+      - 美国专线2
+      - 日本专线3
+      - 荷兰专线4
+rules:
+  - DOMAIN-SUFFIX,ipapi.co,Googleplay
+  - DOMAIN-SUFFIX,ip-api.com,Googleplay
+  - DOMAIN-SUFFIX,api.ip.sb,Googleplay
+  - DOMAIN-SUFFIX,IPInfo.io,Googleplay
+  - DOMAIN-SUFFIX,ipip.net,Googleplay
+  - DOMAIN-SUFFIX,skk.moe,Googleplay
+  - DOMAIN-KEYWORD,game,Proxies
+  - DOMAIN-KEYWORD,gvt1,Proxies
+  - DOMAIN-KEYWORD,googlevideo.com,Proxies
+  - DOMAIN-KEYWORD,lra8j.com,DIRECT
+  - DOMAIN-KEYWORD,cn,DIRECT
+  - DOMAIN,play-fe.googleapis.com,Googleplay
+  - DOMAIN,play.googleapis.com,Googleplay
+  - DOMAIN,myaccount.google.com,Googleplay
+  - DOMAIN-KEYWORD,accounts.google.com,Googleplay
+  - DOMAIN,play-fe.googleapis.com,Googleplay
+  - DOMAIN,sspanel.net,Googleplay
+  - DOMAIN,payments-pa.googleapis.com,Googleplay
+  - DOMAIN-KEYWORD,orders-dra.iap.cloud.huawei,Googleplay
+  - DOMAIN-SUFFIX,acs.cupdapp.cn,Googleplay
+  - DOMAIN-KEYWORD,iap-pay-dra.cloud.huawei,Googleplay
+  - IP-CIDR,172.217.160.110/32,Googleplay
+  - IP-CIDR,172.217.163.46/32,Googleplay
+  - IP-CIDR,172.217.160.78/32,Googleplay
+  - IP-CIDR,142.251.42.238/32,Googleplay
+  - IP-CIDR,142.251.43.14/32,Googleplay
+  - IP-CIDR,142.251.220.77/32,Googleplay
+  - IP-CIDR,142.251.42.237/32,Googleplay
+  - IP-CIDR,172.217.163.45/32,Googleplay
+  - IP-CIDR,142.250.204.78/32,Googleplay
+  - IP-CIDR,142.250.66.142/32,Googleplay
+  - DOMAIN-SUFFIX,1password.com,DIRECT
+  - DOMAIN-SUFFIX,vultr.com,DIRECT
+  - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+  - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+  - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,baidu-int.com,DIRECT
+  - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+  - DOMAIN,mtalk.google.com,DIRECT
+  - DOMAIN,alt1-mtalk.google.com,DIRECT
+  - DOMAIN,alt2-mtalk.google.com,DIRECT
+  - DOMAIN,alt3-mtalk.google.com,DIRECT
+  - DOMAIN,alt4-mtalk.google.com,DIRECT
+  - DOMAIN,alt5-mtalk.google.com,DIRECT
+  - DOMAIN,alt6-mtalk.google.com,DIRECT
+  - DOMAIN,alt7-mtalk.google.com,DIRECT
+  - DOMAIN,alt8-mtalk.google.com,DIRECT
+  - DOMAIN,alt9-mtalk.google.com,DIRECT
+  - DOMAIN,captive.apple.com,DIRECT
+  - DOMAIN,time-ios.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,push.apple.com,DIRECT
+  - DOMAIN-KEYWORD,github,Proxies
+  - DOMAIN-SUFFIX,github.com,Proxies
+  - DOMAIN-SUFFIX,github.io,Proxies
+  - DOMAIN-SUFFIX,githubapp.com,Proxies
+  - DOMAIN-SUFFIX,githubassets.com,Proxies
+  - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+  - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+  - DOMAIN-SUFFIX,googleapis.cn,Proxies
+  - DOMAIN-SUFFIX,maying.co,Proxies
+  - DOMAIN-SUFFIX,flowercloud.net,Proxies
+  - DOMAIN-SUFFIX,socloud.me,Proxies
+  - DOMAIN-SUFFIX,ytoo.asia,Proxies
+  - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxies
