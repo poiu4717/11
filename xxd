@@ -13,7 +13,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-
   - {name: 荷兰专线4, server: c2s5.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 美国专线, server: c2s1.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
   - {name: 美国专线2, server: c2s2.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
