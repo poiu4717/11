@@ -20,7 +20,7 @@ proxies:
   - {name: 美国专线1, server: c2s3.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线3, server: c2s4.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线1, server: 45.202.245.10, port: 443, type: hysteria2, password: M2MyWZb4sN0JY0erjYLGm11k, sni: bing.com, skip-cert-verify: true, udp: true}
-  - {name: 日本专线2, server: 45.202.245.10, port: 51820, type: wireguard, ip: 10.66.88.2/32, private-key: sKOEJCaCDptBY0J2gVK5uXgVjLErJvY/rLag7Z8U40s=, public-key: COgn5mVDLQXdFhIPrDkn+UR0w6kLHOYQ4g6K0OOQh0E=, allowed-ips: [0.0.0.0/0], mtu: 1280, udp: true}
+  - {name: 日本专线2, server: 45.202.245.10, port: 15226, type: vmess, uuiid: 29502e02-7380-461d-879d-145650f3a026, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 尼日1, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-668636576_l-30, password: 197836245}
   - {name: 尼日2, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-592467120_l-30, password: 197836245}
   - {name: 尼日3, server: as.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-366428526_l-30, password: 197836245}
