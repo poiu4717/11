@@ -14,17 +14,14 @@ dns:
     - tls://dns.google:853
 proxies:
 
-  - { name: '🇭🇰 香港_01', type: ss, server: ft-hk-xygh-by.51feitu.com, port: 10001, cipher: chacha20-ietf-poly1305, password: 2bb73d42-8a17-4a46-8155-44955355cc62, udp: true }
-  - { name: '🇭🇰 香港_02', type: vmess, server: ft-hk-xygh-by.51feitu.com, port: 10002, uuid: 2bb73d42-8a17-4a46-8155-44955355cc62, alterId: 0, cipher: auto, udp: true, network: ws }
-  - { name: '🇭🇰 香港_03', type: ss, server: ft-hk-xygh-by.51feitu.com, port: 10003, cipher: chacha20-ietf-poly1305, password: 2bb73d42-8a17-4a46-8155-44955355cc62, udp: true }
-  - { name: '🇭🇰 三网×2-香港_04', type: vmess, server: ft-hk-xygh-pro.51feitu.com, port: 20004, uuid: 2bb73d42-8a17-4a46-8155-44955355cc62, alterId: 0, cipher: auto, udp: true, network: ws }
-  - { name: '🇭🇰 三网×2-香港_05', type: ss, server: ft-hk-xygh-pro.51feitu.com, port: 20005, cipher: chacha20-ietf-poly1305, password: 2bb73d42-8a17-4a46-8155-44955355cc62, udp: true }
-  - { name: '🇭🇰 三网×2-香港_06', type: vmess, server: ft-hk-xygh-pro.51feitu.com, port: 20006, uuid: 2bb73d42-8a17-4a46-8155-44955355cc62, alterId: 0, cipher: auto, udp: true, network: ws }
+
   - {name: 荷兰专线4, server: c2s5.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 美国专线, server: c2s1.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
   - {name: 美国专线2, server: c2s2.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
   - {name: 美国专线1, server: c2s3.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线3, server: c2s4.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 日本专线1, server: 45.202.245.10, port: 443, type: hysteria2, password: M2MyWZb4sN0JY0erjYLGm11k, sni: bing.com, skip-cert-verify: true, udp: true}
+  - {name: 日本专线2, server: 45.202.245.10, port: 51820, type: wireguard, ip: 10.66.88.2/32, private-key: sKOEJCaCDptBY0J2gVK5uXgVjLErJvY/rLag7Z8U40s=, public-key: COgn5mVDLQXdFhIPrDkn+UR0w6kLHOYQ4g6K0OOQh0E=, allowed-ips: [0.0.0.0/0], mtu: 1280, udp: true}
   - {name: 尼日1, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-668636576_l-30, password: 197836245}
   - {name: 尼日2, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-592467120_l-30, password: 197836245}
   - {name: 尼日3, server: hk.miyaip.online, port: 1111, type: socks5, username: 1x7x3zazkemobmiyaip_g-NG_f-1005_sid-366428526_l-30, password: 197836245}
@@ -114,17 +111,14 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - '🇭🇰 香港_01'
-      - '🇭🇰 香港_02'
-      - '🇭🇰 香港_03'
-      - '🇭🇰 三网×2-香港_04'
-      - '🇭🇰 三网×2-香港_05'
-      - '🇭🇰 三网×2-香港_06'
+
       - 美国专线
       - 美国专线1
       - 美国专线2
       - 日本专线3
       - 荷兰专线4
+      - 日本专线1
+      - 日本专线2
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
   - DOMAIN-SUFFIX,ip-api.com,Googleplay
