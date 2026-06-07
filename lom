@@ -1,0 +1,186 @@
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+proxies:
+
+
+
+  - {name: 荷兰专线4, server: c2s5.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 美国专线, server: c2s1.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
+  - {name: 美国专线2, server: c2s2.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
+  - {name: 美国专线1, server: c2s3.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 日本专线3, server: c2s4.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 日本专线1, server: 103.181.164.49, port: 28664, type: hysteria2, password: M2MyWZb4sN0JY0erjYLGm11k, sni: bing.com, skip-cert-verify: true, udp: true}
+  - {name: 日本专线2, server: 103.181.164.49, port: 29834, type: vmess, uuid: 29502e02-7380-461d-879d-145650f3a026, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 尼日1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375220_l-30, password: 197836245, udp: true}
+  - {name: 尼日2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375221_l-30, password: 197836245, udp: true}
+  - {name: 尼日3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375222_l-30, password: 197836245, udp: true}
+  - {name: 尼日4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375223_l-30, password: 197836245, udp: true}
+  - {name: 尼日5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375224_l-30, password: 197836245, udp: true}
+  - {name: 尼日6, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375225_l-30, password: 197836245, udp: true}
+  - {name: 尼日7, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375226_l-30, password: 197836245, udp: true}
+  - {name: 尼日8, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375227_l-30, password: 197836245, udp: true}
+  - {name: 尼日9, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375228_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222210_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222211_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222212_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222223_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222224_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾6, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222225_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾7, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222226_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾8, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222227_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾9, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222228_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾10, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222229_l-30, password: 197836245, udp: true}
+  - {name: 巴西1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751170_l-30, password: 197836245, udp: true}
+  - {name: 巴西2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751171_l-30, password: 197836245, udp: true}
+  - {name: 巴西3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751172_l-30, password: 197836245, udp: true}
+  - {name: 巴西4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751173_l-30, password: 197836245, udp: true}
+  - {name: 巴西5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751174_l-30, password: 197836245, udp: true}
+  - {name: 土耳其1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122260_l-30, password: 197836245, udp: true}
+  - {name: 土耳其2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122261_l-30, password: 197836245, udp: true}
+  - {name: 土耳其3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122262_l-30, password: 197836245, udp: true}
+  - {name: 土耳其4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122263_l-30, password: 197836245, udp: true}
+  - {name: 土耳其5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122264_l-30, password: 197836245, udp: true}
+
+  - {name: 乌克兰1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633080_l-30, password: 197836245, udp: true}
+  - {name: 乌克兰2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633081_l-30, password: 197836245, udp: true}
+  - {name: 乌克兰3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633082_l-30, password: 197836245, udp: true}
+  - {name: 乌克兰4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633083_l-30, password: 197836245, udp: true}
+  - {name: 乌克兰5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633084_l-30, password: 197836245, udp: true}
+
+
+proxy-groups:
+  - name: Googleplay
+    type: select
+    proxies:
+      - 尼日1
+      - 尼日2
+      - 尼日3
+      - 尼日4
+      - 尼日5
+      - 尼日6
+      - 尼日7
+      - 尼日8
+      - 尼日9
+
+
+  
+
+      - 巴西1
+      - 巴西2
+      - 巴西3
+      - 巴西4
+      - 巴西5
+      - 土耳其1
+      - 土耳其2
+      - 土耳其3
+      - 土耳其4
+      - 土耳其5
+      - 菲律宾1
+      - 菲律宾2
+      - 菲律宾3
+      - 菲律宾4
+      - 菲律宾5
+      - 菲律宾6
+      - 菲律宾7
+      - 菲律宾8
+      - 菲律宾9
+      - 菲律宾10
+      - 乌克兰1
+      - 乌克兰2
+      - 乌克兰3
+      - 乌克兰4
+      - 乌克兰5
+
+  - name: Proxies
+    type: select
+    proxies:
+
+
+      - 美国专线
+      - 美国专线1
+      - 美国专线2
+      - 日本专线3
+      - 荷兰专线4
+      - 日本专线1
+      - 日本专线2
+rules:
+  - DOMAIN-SUFFIX,ipapi.co,Googleplay
+  - DOMAIN-SUFFIX,ip-api.com,Googleplay
+  - DOMAIN-SUFFIX,api.ip.sb,Googleplay
+  - DOMAIN-SUFFIX,IPInfo.io,Googleplay
+  - DOMAIN-SUFFIX,ipip.net,Googleplay
+  - DOMAIN-SUFFIX,skk.moe,Googleplay
+  - DOMAIN-KEYWORD,game,Proxies
+  - DOMAIN-KEYWORD,gvt1,Proxies
+  - DOMAIN-KEYWORD,googlevideo.com,Proxies
+  - DOMAIN-KEYWORD,lra8j.com,DIRECT
+  - DOMAIN-KEYWORD,cn,DIRECT
+  - DOMAIN,play-fe.googleapis.com,Googleplay
+  - DOMAIN,play.googleapis.com,Googleplay
+  - DOMAIN,myaccount.google.com,Googleplay
+  - DOMAIN-KEYWORD,accounts.google.com,Googleplay
+  - DOMAIN,play-fe.googleapis.com,Googleplay
+  - DOMAIN,sspanel.net,Googleplay
+  - DOMAIN,payments-pa.googleapis.com,Googleplay
+  - DOMAIN-KEYWORD,orders-dra.iap.cloud.huawei,Googleplay
+  - DOMAIN-SUFFIX,acs.cupdapp.cn,Googleplay
+  - DOMAIN-KEYWORD,iap-pay-dra.cloud.huawei,Googleplay
+  - IP-CIDR,172.217.160.110/32,Googleplay
+  - IP-CIDR,172.217.163.46/32,Googleplay
+  - IP-CIDR,172.217.160.78/32,Googleplay
+  - IP-CIDR,142.251.42.238/32,Googleplay
+  - IP-CIDR,142.251.43.14/32,Googleplay
+  - IP-CIDR,142.251.220.77/32,Googleplay
+  - IP-CIDR,142.251.42.237/32,Googleplay
+  - IP-CIDR,172.217.163.45/32,Googleplay
+  - IP-CIDR,142.250.204.78/32,Googleplay
+  - IP-CIDR,142.250.66.142/32,Googleplay
+  - DOMAIN-SUFFIX,1password.com,DIRECT
+  - DOMAIN-SUFFIX,vultr.com,DIRECT
+  - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+  - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+  - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,baidu-int.com,DIRECT
+  - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+  - DOMAIN,mtalk.google.com,DIRECT
+  - DOMAIN,alt1-mtalk.google.com,DIRECT
+  - DOMAIN,alt2-mtalk.google.com,DIRECT
+  - DOMAIN,alt3-mtalk.google.com,DIRECT
+  - DOMAIN,alt4-mtalk.google.com,DIRECT
+  - DOMAIN,alt5-mtalk.google.com,DIRECT
+  - DOMAIN,alt6-mtalk.google.com,DIRECT
+  - DOMAIN,alt7-mtalk.google.com,DIRECT
+  - DOMAIN,alt8-mtalk.google.com,DIRECT
+  - DOMAIN,alt9-mtalk.google.com,DIRECT
+  - DOMAIN,captive.apple.com,DIRECT
+  - DOMAIN,time-ios.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,push.apple.com,DIRECT
+  - DOMAIN-KEYWORD,github,Proxies
+  - DOMAIN-SUFFIX,github.com,Proxies
+  - DOMAIN-SUFFIX,github.io,Proxies
+  - DOMAIN-SUFFIX,githubapp.com,Proxies
+  - DOMAIN-SUFFIX,githubassets.com,Proxies
+  - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+  - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+  - DOMAIN-SUFFIX,googleapis.cn,Proxies
+  - DOMAIN-SUFFIX,maying.co,Proxies
+  - DOMAIN-SUFFIX,flowercloud.net,Proxies
+  - DOMAIN-SUFFIX,socloud.me,Proxies
+  - DOMAIN-SUFFIX,ytoo.asia,Proxies
+  - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxies
