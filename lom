@@ -59,6 +59,12 @@ proxies:
   - {name: 乌克兰3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633082_l-30, password: 197836245, udp: true}
   - {name: 乌克兰4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633083_l-30, password: 197836245, udp: true}
   - {name: 乌克兰5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633084_l-30, password: 197836245, udp: true}
+  - {name: 印尼1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094370_l-30, password: 197836245, udp: true}
+  - {name: 印尼2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094371_l-30, password: 197836245, udp: true}
+  - {name: 印尼3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094372_l-30, password: 197836245, udp: true}
+  - {name: 印尼4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094373_l-30, password: 197836245, udp: true}
+  - {name: 印尼5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094374_l-30, password: 197836245, udp: true}
+
 
 
 proxy-groups:
@@ -74,7 +80,11 @@ proxy-groups:
       - 尼日7
       - 尼日8
       - 尼日9
-
+      - 印尼1
+      - 印尼2
+      - 印尼3
+      - 印尼4
+      - 印尼5
 
   
 
