@@ -63,6 +63,11 @@ proxies:
   - {name: 印尼3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094372_l-30, password: 197836245, udp: true}
   - {name: 印尼4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094373_l-30, password: 197836245, udp: true}
   - {name: 印尼5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094374_l-30, password: 197836245, udp: true}
+  - {name: 英国1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-GB_f-1005_sid-17825565579100_l-30, password: 197836245, udp: true}
+  - {name: 英国2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-GB_f-1005_sid-17825565579101_l-30, password: 197836245, udp: true}
+  - {name: 英国3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-GB_f-1005_sid-17825565579102_l-30, password: 197836245, udp: true}
+  - {name: 英国4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-GB_f-1005_sid-17825565579103_l-30, password: 197836245, udp: true}
+  - {name: 英国5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-GB_f-1005_sid-17825565579104_l-30, password: 197836245, udp: true}
 proxy-groups:
   - name: Googleplay
     type: select
@@ -82,7 +87,11 @@ proxy-groups:
       - 印尼3
       - 印尼4
       - 印尼5
-
+      - 英国1
+      - 英国2
+      - 英国3
+      - 英国4
+      - 英国5
   
 
       - 巴西1
