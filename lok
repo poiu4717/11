@@ -53,7 +53,6 @@ proxies:
   - {name: 土耳其3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122262_l-30, password: 197836245, udp: true}
   - {name: 土耳其4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122263_l-30, password: 197836245, udp: true}
   - {name: 土耳其5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122264_l-30, password: 197836245, udp: true}
-
   - {name: 乌克兰1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633080_l-30, password: 197836245, udp: true}
   - {name: 乌克兰2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633081_l-30, password: 197836245, udp: true}
   - {name: 乌克兰3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633082_l-30, password: 197836245, udp: true}
