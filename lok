@@ -24,46 +24,46 @@ proxies:
   - {name: 日本专线1, server: 103.181.164.49, port: 28664, type: hysteria2, password: M2MyWZb4sN0JY0erjYLGm11k, sni: bing.com, skip-cert-verify: true, udp: true}
   - {name: 日本专线2, server: 103.181.164.49, port: 29834, type: vmess, uuid: 29502e02-7380-461d-879d-145650f3a026, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 土耳其, server: 103.181.164.49, port: 26918, type: socks5, username: kgmuuznr, password: 19m53p0lleas, udp: true}
-  - {name: 尼日1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375220_l-30, password: 197836245, udp: true}
-  - {name: 尼日2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375221_l-30, password: 197836245, udp: true}
-  - {name: 尼日3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375222_l-30, password: 197836245, udp: true}
-  - {name: 尼日4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375223_l-30, password: 197836245, udp: true}
-  - {name: 尼日5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375224_l-30, password: 197836245, udp: true}
-  - {name: 尼日6, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375225_l-30, password: 197836245, udp: true}
-  - {name: 尼日7, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375226_l-30, password: 197836245, udp: true}
-  - {name: 尼日8, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375227_l-30, password: 197836245, udp: true}
-  - {name: 尼日9, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375228_l-30, password: 197836245, udp: true}
-  - {name: 菲律宾1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222210_l-30, password: 197836245, udp: true}
-  - {name: 菲律宾2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222211_l-30, password: 197836245, udp: true}
-  - {name: 菲律宾3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222212_l-30, password: 197836245, udp: true}
-  - {name: 菲律宾4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222223_l-30, password: 197836245, udp: true}
-  - {name: 菲律宾5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222224_l-30, password: 197836245, udp: true}
-  - {name: 菲律宾6, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222225_l-30, password: 197836245, udp: true}
-  - {name: 菲律宾7, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222226_l-30, password: 197836245, udp: true}
-  - {name: 菲律宾8, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222227_l-30, password: 197836245, udp: true}
-  - {name: 菲律宾9, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222228_l-30, password: 197836245, udp: true}
-  - {name: 菲律宾10, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222229_l-30, password: 197836245, udp: true}
-  - {name: 巴西1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751170_l-30, password: 197836245, udp: true}
-  - {name: 巴西2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751171_l-30, password: 197836245, udp: true}
-  - {name: 巴西3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751172_l-30, password: 197836245, udp: true}
-  - {name: 巴西4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751173_l-30, password: 197836245, udp: true}
-  - {name: 巴西5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751174_l-30, password: 197836245, udp: true}
-  - {name: 土耳其1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122260_l-30, password: 197836245, udp: true}
-  - {name: 土耳其2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122261_l-30, password: 197836245, udp: true}
-  - {name: 土耳其3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122262_l-30, password: 197836245, udp: true}
-  - {name: 土耳其4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122263_l-30, password: 197836245, udp: true}
-  - {name: 土耳其5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122264_l-30, password: 197836245, udp: true}
+  - {name: 尼日1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375220_l-30, password: 197836245, udp: true}
+  - {name: 尼日2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375221_l-30, password: 197836245, udp: true}
+  - {name: 尼日3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375222_l-30, password: 197836245, udp: true}
+  - {name: 尼日4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375223_l-30, password: 197836245, udp: true}
+  - {name: 尼日5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375224_l-30, password: 197836245, udp: true}
+  - {name: 尼日6, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375225_l-30, password: 197836245, udp: true}
+  - {name: 尼日7, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375226_l-30, password: 197836245, udp: true}
+  - {name: 尼日8, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375227_l-30, password: 197836245, udp: true}
+  - {name: 尼日9, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-NG_f-1005_sid-17808123375228_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222210_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222211_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222212_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222223_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222224_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾6, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222225_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾7, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222226_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾8, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222227_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾9, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222228_l-30, password: 197836245, udp: true}
+  - {name: 菲律宾10, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17808124222229_l-30, password: 197836245, udp: true}
+  - {name: 巴西1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751170_l-30, password: 197836245, udp: true}
+  - {name: 巴西2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751171_l-30, password: 197836245, udp: true}
+  - {name: 巴西3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751172_l-30, password: 197836245, udp: true}
+  - {name: 巴西4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751173_l-30, password: 197836245, udp: true}
+  - {name: 巴西5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17808124751174_l-30, password: 197836245, udp: true}
+  - {name: 土耳其1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122260_l-30, password: 197836245, udp: true}
+  - {name: 土耳其2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122261_l-30, password: 197836245, udp: true}
+  - {name: 土耳其3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122262_l-30, password: 197836245, udp: true}
+  - {name: 土耳其4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122263_l-30, password: 197836245, udp: true}
+  - {name: 土耳其5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17808125122264_l-30, password: 197836245, udp: true}
 
-  - {name: 乌克兰1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633080_l-30, password: 197836245, udp: true}
-  - {name: 乌克兰2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633081_l-30, password: 197836245, udp: true}
-  - {name: 乌克兰3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633082_l-30, password: 197836245, udp: true}
-  - {name: 乌克兰4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633083_l-30, password: 197836245, udp: true}
-  - {name: 乌克兰5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633084_l-30, password: 197836245, udp: true}
-  - {name: 印尼1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094370_l-30, password: 197836245, udp: true}
-  - {name: 印尼2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094371_l-30, password: 197836245, udp: true}
-  - {name: 印尼3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094372_l-30, password: 197836245, udp: true}
-  - {name: 印尼4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094373_l-30, password: 197836245, udp: true}
-  - {name: 印尼5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094374_l-30, password: 197836245, udp: true}
+  - {name: 乌克兰1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633080_l-30, password: 197836245, udp: true}
+  - {name: 乌克兰2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633081_l-30, password: 197836245, udp: true}
+  - {name: 乌克兰3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633082_l-30, password: 197836245, udp: true}
+  - {name: 乌克兰4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633083_l-30, password: 197836245, udp: true}
+  - {name: 乌克兰5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808125633084_l-30, password: 197836245, udp: true}
+  - {name: 印尼1, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094370_l-30, password: 197836245, udp: true}
+  - {name: 印尼2, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094371_l-30, password: 197836245, udp: true}
+  - {name: 印尼3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094372_l-30, password: 197836245, udp: true}
+  - {name: 印尼4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094373_l-30, password: 197836245, udp: true}
+  - {name: 印尼5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094374_l-30, password: 197836245, udp: true}
   - name: Googleplay
     type: select
     proxies:
