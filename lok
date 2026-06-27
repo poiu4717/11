@@ -63,9 +63,11 @@ proxies:
   - {name: 印尼3, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094372_l-30, password: 197836245, udp: true}
   - {name: 印尼4, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094373_l-30, password: 197836245, udp: true}
   - {name: 印尼5, server: df.668fx.com, port: 4092, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094374_l-30, password: 197836245, udp: true}
+proxy-groups:
   - name: Googleplay
     type: select
     proxies:
+
       - 尼日1
       - 尼日2
       - 尼日3
