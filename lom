@@ -63,6 +63,11 @@ proxies:
   - {name: 印尼3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094372_l-30, password: 197836245, udp: true}
   - {name: 印尼4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094373_l-30, password: 197836245, udp: true}
   - {name: 印尼5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17819584094374_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886370_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886371_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886372_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886373_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886374_l-30, password: 197836245, udp: true}
 
 
 proxy-groups:
@@ -111,6 +116,12 @@ proxy-groups:
       - 乌克兰3
       - 乌克兰4
       - 乌克兰5
+      - 玻利维亚1
+      - 玻利维亚2
+      - 玻利维亚3
+      - 玻利维亚4
+      - 玻利维亚5
+
 
   - name: Proxies
     type: select
