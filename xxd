@@ -16,11 +16,14 @@ proxies:
   - {name: 荷兰专线4, server: c2s5.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 美国专线, server: c2s1.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
   - {name: 美国专线2, server: c2s2.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
-
   - {name: 美国专线1, server: c2s3.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线3, server: c2s4.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 日本专线1, server: 45.202.245.10, port: 443, type: hysteria2, password: M2MyWZb4sN0JY0erjYLGm11k, sni: bing.com, skip-cert-verify: true, udp: true}
-  - {name: 日本专线2, server: 45.202.245.10, port: 15226, type: vmess, uuid: 29502e02-7380-461d-879d-145650f3a026, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+ 
+  - {name: 香港专线4, server: c709s5.portablesubmarines.com, port: 6113, type: vmess, uuid: 22e14c5b-6de3-4c4c-a03a-aed7516e3b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 香港专线, server: c709s1.portablesubmarines.com, port: 6113, type: ss, cipher: aes-256-gcm, password: dvstSYDj75ULca5x}
+  - {name: 香港专线1, server: c709s2.portablesubmarines.com, port: 6113, type: ss, cipher: aes-256-gcm, password: dvstSYDj75ULca5x}
+  - {name: 香港专线2, server: c709s3.portablesubmarines.com, port: 6113, type: vmess, uuid: 22e14c5b-6de3-4c4c-a03a-aed7516e3b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 香港专线3, server: c709s4.portablesubmarines.com, port: 6113, type: vmess, uuid: 22e14c5b-6de3-4c4c-a03a-aed7516e3b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 乌克兰1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808120308190_l-30, password: 197836245, udp: true}
   - {name: 乌克兰2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808120308191_l-30, password: 197836245, udp: true}
   - {name: 乌克兰3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17808120308192_l-30, password: 197836245, udp: true}
@@ -72,8 +75,12 @@ proxy-groups:
       - 美国专线2
       - 日本专线3
       - 荷兰专线4
-      - 日本专线1
-      - 日本专线2
+      - 香港专线1
+      - 香港专线2
+      - 香港专线3
+      - 香港专线4
+      - 香港专线
+
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
   - DOMAIN-SUFFIX,ip-api.com,Googleplay
