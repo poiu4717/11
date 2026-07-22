@@ -18,7 +18,7 @@ proxies:
   - {name: 美国专线2, server: c2s2.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
   - {name: 美国专线1, server: c2s3.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线3, server: c2s4.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 日本专线3, server: c2s4.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 日本专线4, server: c22s4.portablesubmarines.com, port: 7960, type: vmess, uuid: 9d8e2b75-bc64-4d41-a72d-bc8b62fded9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 香港专线4, server: c709s5.portablesubmarines.com, port: 6113, type: vmess, uuid: 22e14c5b-6de3-4c4c-a03a-aed7516e3b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 香港专线, server: c709s1.portablesubmarines.com, port: 6113, type: ss, cipher: aes-256-gcm, password: dvstSYDj75ULca5x}
   - {name: 香港专线1, server: c709s2.portablesubmarines.com, port: 6113, type: ss, cipher: aes-256-gcm, password: dvstSYDj75ULca5x}
