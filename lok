@@ -21,6 +21,7 @@ proxies:
   - {name: 美国专线2, server: c2s2.portablesubmarines.com, port: 15225, type: ss, cipher: aes-256-gcm, password: v3DVYMG32nJDKXbn}
   - {name: 美国专线1, server: c2s3.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线3, server: c2s4.portablesubmarines.com, port: 15225, type: vmess, uuid: d7463fc9-2e93-4263-94a5-51d273b64cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 日本专线4, server: c22s4.portablesubmarines.com, port: 7960, type: vmess, uuid: 9d8e2b75-bc64-4d41-a72d-bc8b62fded9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本专线1, server: 103.181.164.49, port: 28664, type: hysteria2, password: M2MyWZb4sN0JY0erjYLGm11k, sni: bing.com, skip-cert-verify: true, udp: true}
   - {name: 日本专线2, server: 103.181.164.49, port: 29834, type: vmess, uuid: 29502e02-7380-461d-879d-145650f3a026, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 土耳其, server: 103.181.164.49, port: 26918, type: socks5, username: kgmuuznr, password: 19m53p0lleas, udp: true}
@@ -134,6 +135,7 @@ proxy-groups:
       - 美国专线1
       - 美国专线2
       - 日本专线3
+      - 日本专线4
       - 荷兰专线4
       - 日本专线1
       - 日本专线2
