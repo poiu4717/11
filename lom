@@ -74,7 +74,11 @@ proxies:
   - {name: 玻利维亚3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886372_l-30, password: 197836245, udp: true}
   - {name: 玻利维亚4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886373_l-30, password: 197836245, udp: true}
   - {name: 玻利维亚5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886374_l-30, password: 197836245, udp: true}
-
+  - {name: 玻利维亚6, server: 106.75.152.119, port: 880, type: socks5, username: fb8354c4-6194c2, password: mobile-bo---, udp: true}
+  - {name: 玻利维亚7, server: 106.75.152.119, port: 881, type: socks5, username: fb8354c4-b7b1a9, password: mobile-bo---, udp: true}
+  - {name: 玻利维亚8, server: 106.75.152.119, port: 882, type: socks5, username: fb8354c4-a37e42, password: mobile-bo---, udp: true}
+  - {name: 玻利维亚9, server: 106.75.152.119, port: 883, type: socks5, username: 7b8587ae-fb8354c4-c25042, password: mobile-bo---, udp: true}
+  - {name: 玻利维亚10, server: 106.75.152.119, port: 884, type: socks5, username: 7b8587ae-fb8354c4-1c27b2, password: mobile-bo---, udp: true}
 
 proxy-groups:
   - name: Googleplay
