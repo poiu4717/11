@@ -145,25 +145,6 @@ proxy-groups:
       - 乌克兰3
       - 乌克兰4
       - 乌克兰5
-
-  - name: Proxies
-    type: select
-    proxies:
-
-      - 土耳其
-      - 美国专线
-      - 美国专线1
-      - 美国专线2
-      - 日本专线3
-      - 日本专线4
-      - 荷兰专线4
-      - 日本专线1
-      - 日本专线2
-      - 香港专线
-      - 香港专线1
-      - 香港专线2
-      - 香港专线3
-      - 香港专线4
       - 玻利维亚1
       - 玻利维亚2
       - 玻利维亚3
@@ -184,6 +165,26 @@ proxy-groups:
       - 玻利维亚18
       - 玻利维亚19
       - 玻利维亚20
+
+  - name: Proxies
+    type: select
+    proxies:
+
+      - 土耳其
+      - 美国专线
+      - 美国专线1
+      - 美国专线2
+      - 日本专线3
+      - 日本专线4
+      - 荷兰专线4
+      - 日本专线1
+      - 日本专线2
+      - 香港专线
+      - 香港专线1
+      - 香港专线2
+      - 香港专线3
+      - 香港专线4
+
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
   - DOMAIN-SUFFIX,ip-api.com,Googleplay
