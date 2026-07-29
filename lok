@@ -74,6 +74,26 @@ proxies:
   - {name: 英国3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-GB_f-1005_sid-17825565579102_l-30, password: 197836245, udp: true}
   - {name: 英国4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-GB_f-1005_sid-17825565579103_l-30, password: 197836245, udp: true}
   - {name: 英国5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-GB_f-1005_sid-17825565579104_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886370_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886371_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886372_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886373_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17836943886374_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚6, server: 106.75.152.119, port: 880, type: socks5, username: fb8354c4-6194c2, password: mobile-bo---, udp: true}
+  - {name: 玻利维亚7, server: 106.75.152.119, port: 881, type: socks5, username: fb8354c4-b7b1a9, password: mobile-bo---, udp: true}
+  - {name: 玻利维亚8, server: 106.75.152.119, port: 882, type: socks5, username: fb8354c4-a37e42, password: mobile-bo---, udp: true}
+  - {name: 玻利维亚9, server: 106.75.152.119, port: 883, type: socks5, username: 7b8587ae-fb8354c4-c25042, password: mobile-bo---, udp: true}
+  - {name: 玻利维亚10, server: 106.75.152.119, port: 884, type: socks5, username: 7b8587ae-fb8354c4-1c27b2, password: mobile-bo---, udp: true}
+  - {name: 玻利维亚11, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108260_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚12, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108261_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚13, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108262_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚14, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108263_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚15, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108264_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚16, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108265_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚17, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108266_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚18, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108267_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚19, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108268_l-30, password: 197836245, udp: true}
+  - {name: 玻利维亚20, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108269_l-30, password: 197836245, udp: true}
 proxy-groups:
   - name: Googleplay
     type: select
@@ -144,6 +164,26 @@ proxy-groups:
       - 香港专线2
       - 香港专线3
       - 香港专线4
+      - 玻利维亚1
+      - 玻利维亚2
+      - 玻利维亚3
+      - 玻利维亚4
+      - 玻利维亚5
+      - 玻利维亚6
+      - 玻利维亚7
+      - 玻利维亚8
+      - 玻利维亚9
+      - 玻利维亚10
+      - 玻利维亚11
+      - 玻利维亚12
+      - 玻利维亚13
+      - 玻利维亚14
+      - 玻利维亚15
+      - 玻利维亚16
+      - 玻利维亚17
+      - 玻利维亚18
+      - 玻利维亚19
+      - 玻利维亚20
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
   - DOMAIN-SUFFIX,ip-api.com,Googleplay
