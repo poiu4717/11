@@ -41,7 +41,7 @@ proxies:
   - {name: 乌克兰15, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-178081203081914_l-30, password: 197836245, udp: true}
   - {name: 乌克兰16, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-UA_f-1001_sid-70369914_l-30, password: 157632896}
   - {name: 乌克兰17, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-UA_f-1001_sid-86053812_l-30, password: 157632896}
-  - {name: 乌克兰18, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-UA_f-1001_sid-9571216_l-30, password: 157632896
+  - {name: 乌克兰18, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-UA_f-1001_sid-9571216_l-30, password: 157632896}
   - {name: 乌克兰19, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-UA_f-1001_sid-32433922_l-30, password: 157632896}
   - {name: 乌克兰20, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-UA_f-1001_sid-939445_l-30, password: 157632896}
 
