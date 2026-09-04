@@ -81,11 +81,11 @@ proxies:
   - {name: 玻利维亚13, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108262_l-30, password: 197836245, udp: true}
   - {name: 玻利维亚14, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108263_l-30, password: 197836245, udp: true}
   - {name: 玻利维亚15, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108264_l-30, password: 197836245, udp: true}
-  - {name: 玻利维亚16, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108265_l-30, password: 197836245, udp: true}
-  - {name: 玻利维亚17, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108266_l-30, password: 197836245, udp: true}
-  - {name: 玻利维亚18, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108267_l-30, password: 197836245, udp: true}
-  - {name: 玻利维亚19, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108268_l-30, password: 197836245, udp: true}
-  - {name: 玻利维亚20, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BO_f-1005_sid-17853234108269_l-30, password: 197836245, udp: true}
+  - {name: 巴基斯坦1, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PK_f-1005_sid-17885074005780_l-30, password: 197836245}
+  - {name: 巴基斯坦2, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PK_f-1005_sid-17885074005781_l-30, password: 197836245}
+  - {name: 巴基斯坦3, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PK_f-1005_sid-17885074005782_l-30, password: 197836245}
+  - {name: 巴基斯坦4, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PK_f-1005_sid-17885074005783_l-30, password: 197836245}
+  - {name: 巴基斯坦5, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PK_f-1005_sid-17885074005784_l-30, password: 197836245}
 proxy-groups:
   - name: Googleplay
     type: select
@@ -147,11 +147,11 @@ proxy-groups:
       - 玻利维亚13
       - 玻利维亚14
       - 玻利维亚15
-      - 玻利维亚16
-      - 玻利维亚17
-      - 玻利维亚18
-      - 玻利维亚19
-      - 玻利维亚20
+      - 巴基斯坦1
+      - 巴基斯坦2
+      - 巴基斯坦3
+      - 巴基斯坦4
+      - 巴基斯坦5
 
   - name: Proxies
     type: select
