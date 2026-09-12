@@ -86,6 +86,7 @@ proxies:
   - {name: 巴基斯坦3, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PK_f-1005_sid-17885074005782_l-30, password: 197836245}
   - {name: 巴基斯坦4, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PK_f-1005_sid-17885074005783_l-30, password: 197836245}
   - {name: 巴基斯坦5, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PK_f-1005_sid-17885074005784_l-30, password: 197836245}
+
 proxy-groups:
   - name: Googleplay
     type: select
