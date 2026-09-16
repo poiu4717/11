@@ -71,11 +71,11 @@ proxies:
   - {name: 玻利维亚3, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-86000860_l-30, password: 157632896}
   - {name: 玻利维亚4, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-8540284_l-30, password: 157632896}
   - {name: 玻利维亚5, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-89704636_l-30, password: 157632896}
-  - {name: 玻利维亚6, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-4722612_l-30, password: 157632896}
-  - {name: 玻利维亚7, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-7543031_l-30, password: 157632896}
-  - {name: 玻利维亚8, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-74434588_l-30, password: 157632896}
-  - {name: 玻利维亚9, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-74902933_l-30, password: 157632896}
-  - {name: 玻利维亚10, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-47476021_l-30, password: 157632896}
+  - {name: 澳门1, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-3jMDwoEN}
+  - {name: 澳门2, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-CUlvrAeN}
+  - {name: 澳门3, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-emclY1yu}
+  - {name: 澳门4, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-4bJgHQtG}
+  - {name: 澳门5, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-9Xlx3GTq}
   - {name: 尼日11, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-86258321_l-30, password: 157632896}
   - {name: 尼日12, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-594747_l-30, password: 157632896}
   - {name: 尼日13, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-284997_l-30, password: 157632896}
@@ -138,11 +138,11 @@ proxy-groups:
       - 玻利维亚3
       - 玻利维亚4
       - 玻利维亚5
-      - 玻利维亚6
-      - 玻利维亚7
-      - 玻利维亚8
-      - 玻利维亚9
-      - 玻利维亚10
+      - 澳门1
+      - 澳门2
+      - 澳门3
+      - 澳门4
+      - 澳门5
       - 尼日11
       - 尼日12
       - 尼日13
