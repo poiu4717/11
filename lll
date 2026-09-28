@@ -1,0 +1,229 @@
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+proxies:
+
+  - {name: 美国专线, type: ss, server: c38s1.portablesubmarines.com, port: 17037, cipher: aes-256-gcm, password: rB8eUJfg9jprkekn, udp: true}
+  - {name: 美国专线1, type: vless, server: c38s2.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}}
+  - {name: 美国专线2, type: vless, server: c38s3.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}}
+  - {name: 日本专线3, type: vless, server: c38s4.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}}
+  - {name: 荷兰专线4, type: vless, server: c38s5.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}}
+  - {name: 尼日1, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-58283435_l-30, password: 167132356}
+  - {name: 尼日2, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-27097936_l-30, password: 167132356}
+  - {name: 尼日3, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-761809_l-30, password: 167132356}
+  - {name: 尼日4, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-7500538_l-30, password: 167132356}
+  - {name: 尼日5, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-3689236_l-30, password: 167132356}
+  - {name: 尼日6, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-34933782_l-30, password: 167132356}
+  - {name: 尼日7, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-826399_l-30, password: 167132356}
+  - {name: 尼日8, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-7089079_l-30, password: 167132356}
+  - {name: 尼日9, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-897037_l-30, password: 167132356}
+  - {name: 菲律宾1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17893564121340_l-30, password: 197836245}
+  - {name: 菲律宾2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17893564121341_l-30, password: 197836245}
+  - {name: 菲律宾3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17893564121342_l-30, password: 197836245}
+  - {name: 菲律宾4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17893564121343_l-30, password: 197836245}
+  - {name: 菲律宾5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17893564121344_l-30, password: 197836245}
+  - {name: 菲律宾6, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17893564121345_l-30, password: 197836245}
+  - {name: 菲律宾7, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17893564121346_l-30, password: 197836245}
+  - {name: 菲律宾8, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17893564121347_l-30, password: 197836245}
+  - {name: 菲律宾9, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17893564121348_l-30, password: 197836245}
+  - {name: 菲律宾10, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-PH_f-1005_sid-17893564121349_l-30, password: 197836245}
+  - {name: 巴西1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17893563386630_l-30, password: 197836245}
+  - {name: 巴西2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17893563386631_l-30, password: 197836245}
+  - {name: 巴西3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17893563386632_l-30, password: 197836245}
+  - {name: 巴西4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17893563386633_l-30, password: 197836245}
+  - {name: 巴西5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-BR_f-1005_sid-17893563386634_l-30, password: 197836245}
+  - {name: 土耳其1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17893563013830_l-30, password: 197836245}
+  - {name: 土耳其2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17893563013831_l-30, password: 197836245}
+  - {name: 土耳其3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17893563013832_l-30, password: 197836245}
+  - {name: 土耳其4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17893563013833_l-30, password: 197836245}
+  - {name: 土耳其5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-TR_f-1005_sid-17893563013834_l-30, password: 197836245}
+
+  - {name: 乌克兰1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17893564810540_l-30, password: 197836245}
+  - {name: 乌克兰2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17893564810541_l-30, password: 197836245}
+  - {name: 乌克兰3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17893564810542_l-30, password: 197836245}
+  - {name: 乌克兰4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17893564810543_l-30, password: 197836245}
+  - {name: 乌克兰5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-UA_f-1005_sid-17893564810544_l-30, password: 197836245}
+  - {name: 印尼1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371250_l-30, password: 197836245}
+  - {name: 印尼2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371251_l-30, password: 197836245}
+  - {name: 印尼3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371252_l-30, password: 197836245}
+  - {name: 印尼4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371253_l-30, password: 197836245}
+  - {name: 印尼5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371254_l-30, password: 197836245}
+  - {name: 玻利维亚1, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-64460633_l-30, password: 157632896}
+  - {name: 玻利维亚2, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-92110339_l-30, password: 157632896}
+  - {name: 玻利维亚3, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-86000860_l-30, password: 157632896}
+  - {name: 玻利维亚4, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-8540284_l-30, password: 157632896}
+  - {name: 玻利维亚5, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-89704636_l-30, password: 157632896}
+  - {name: 澳门1, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-3jMDwoEN}
+  - {name: 澳门2, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-CUlvrAeN}
+  - {name: 澳门3, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-emclY1yu}
+  - {name: 澳门4, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-4bJgHQtG}
+  - {name: 澳门5, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-9Xlx3GTq}
+  - {name: 尼日11, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-86258321_l-30, password: 157632896}
+  - {name: 尼日12, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-594747_l-30, password: 157632896}
+  - {name: 尼日13, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-284997_l-30, password: 157632896}
+  - {name: 尼日14, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-82159654_l-30, password: 157632896}
+  - {name: 尼日15, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-99612339_l-30, password: 157632896}
+  - {name: 巴基斯坦1, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-22416233_l-30, password: 157632896}
+  - {name: 巴基斯坦2, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-9437401_l-30, password: 157632896}
+  - {name: 巴基斯坦3, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-89938686_l-30, password: 157632896}
+  - {name: 巴基斯坦4, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-95634084_l-30, password: 157632896}
+  - {name: 巴基斯坦5, server: global.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-4438356_l-30, password: 157632896}
+
+proxy-groups:
+  - name: Googleplay
+    type: select
+    proxies:
+      - 尼日1
+      - 尼日2
+      - 尼日3
+      - 尼日4
+      - 尼日5
+      - 尼日6
+      - 尼日7
+      - 尼日8
+      - 尼日9
+      - 印尼1
+      - 印尼2
+      - 印尼3
+      - 印尼4
+      - 印尼5
+
+  
+
+      - 巴西1
+      - 巴西2
+      - 巴西3
+      - 巴西4
+      - 巴西5
+      - 土耳其1
+      - 土耳其2
+      - 土耳其3
+      - 土耳其4
+      - 土耳其5
+      - 菲律宾1
+      - 菲律宾2
+      - 菲律宾3
+      - 菲律宾4
+      - 菲律宾5
+      - 菲律宾6
+      - 菲律宾7
+      - 菲律宾8
+      - 菲律宾9
+      - 菲律宾10
+      - 乌克兰1
+      - 乌克兰2
+      - 乌克兰3
+      - 乌克兰4
+      - 乌克兰5
+      - 玻利维亚1
+      - 玻利维亚2
+      - 玻利维亚3
+      - 玻利维亚4
+      - 玻利维亚5
+      - 澳门1
+      - 澳门2
+      - 澳门3
+      - 澳门4
+      - 澳门5
+      - 尼日11
+      - 尼日12
+      - 尼日13
+      - 尼日14
+      - 尼日15
+      - 巴基斯坦1
+      - 巴基斯坦2
+      - 巴基斯坦3
+      - 巴基斯坦4
+      - 巴基斯坦5
+
+  - name: Proxies
+    type: select
+    proxies:
+
+      - 美国专线
+      - 美国专线1
+      - 美国专线2
+      - 日本专线3
+      - 日本专线4
+      - 荷兰专线4
+
+rules:
+  - DOMAIN-SUFFIX,ipapi.co,Googleplay
+  - DOMAIN-SUFFIX,ip-api.com,Googleplay
+  - DOMAIN-SUFFIX,api.ip.sb,Googleplay
+  - DOMAIN-SUFFIX,IPInfo.io,Googleplay
+  - DOMAIN-SUFFIX,ipip.net,Googleplay
+  - DOMAIN-SUFFIX,skk.moe,Googleplay
+  - DOMAIN-KEYWORD,game,Proxies
+  - DOMAIN-KEYWORD,gvt1,Proxies
+  - DOMAIN-KEYWORD,googlevideo.com,Proxies
+  - DOMAIN-KEYWORD,lra8j.com,DIRECT
+  - DOMAIN-KEYWORD,cn,DIRECT
+  - DOMAIN,play-fe.googleapis.com,Googleplay
+  - DOMAIN,play.googleapis.com,Googleplay
+  - DOMAIN,myaccount.google.com,Googleplay
+  - DOMAIN-KEYWORD,accounts.google.com,Googleplay
+  - DOMAIN,play-fe.googleapis.com,Googleplay
+  - DOMAIN,sspanel.net,Googleplay
+  - DOMAIN,payments-pa.googleapis.com,Googleplay
+  - DOMAIN-KEYWORD,orders-dra.iap.cloud.huawei,Googleplay
+  - DOMAIN-SUFFIX,acs.cupdapp.cn,Googleplay
+  - DOMAIN-KEYWORD,iap-pay-dra.cloud.huawei,Googleplay
+  - IP-CIDR,172.217.160.110/32,Googleplay
+  - IP-CIDR,172.217.163.46/32,Googleplay
+  - IP-CIDR,172.217.160.78/32,Googleplay
+  - IP-CIDR,142.251.42.238/32,Googleplay
+  - IP-CIDR,142.251.43.14/32,Googleplay
+  - IP-CIDR,142.251.220.77/32,Googleplay
+  - IP-CIDR,142.251.42.237/32,Googleplay
+  - IP-CIDR,172.217.163.45/32,Googleplay
+  - IP-CIDR,142.250.204.78/32,Googleplay
+  - IP-CIDR,142.250.66.142/32,Googleplay
+  - DOMAIN-SUFFIX,1password.com,DIRECT
+  - DOMAIN-SUFFIX,vultr.com,DIRECT
+  - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+  - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+  - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,baidu-int.com,DIRECT
+  - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+  - DOMAIN,mtalk.google.com,DIRECT
+  - DOMAIN,alt1-mtalk.google.com,DIRECT
+  - DOMAIN,alt2-mtalk.google.com,DIRECT
+  - DOMAIN,alt3-mtalk.google.com,DIRECT
+  - DOMAIN,alt4-mtalk.google.com,DIRECT
+  - DOMAIN,alt5-mtalk.google.com,DIRECT
+  - DOMAIN,alt6-mtalk.google.com,DIRECT
+  - DOMAIN,alt7-mtalk.google.com,DIRECT
+  - DOMAIN,alt8-mtalk.google.com,DIRECT
+  - DOMAIN,alt9-mtalk.google.com,DIRECT
+  - DOMAIN,captive.apple.com,DIRECT
+  - DOMAIN,time-ios.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,push.apple.com,DIRECT
+  - DOMAIN-KEYWORD,github,Proxies
+  - DOMAIN-SUFFIX,github.com,Proxies
+  - DOMAIN-SUFFIX,github.io,Proxies
+  - DOMAIN-SUFFIX,githubapp.com,Proxies
+  - DOMAIN-SUFFIX,githubassets.com,Proxies
+  - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+  - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+  - DOMAIN-SUFFIX,googleapis.cn,Proxies
+  - DOMAIN-SUFFIX,maying.co,Proxies
+  - DOMAIN-SUFFIX,flowercloud.net,Proxies
+  - DOMAIN-SUFFIX,socloud.me,Proxies
+  - DOMAIN-SUFFIX,ytoo.asia,Proxies
+  - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxies
