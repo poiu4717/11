@@ -64,16 +64,16 @@ proxies:
   - {name: 玻利维亚3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-86000860_l-30, password: 157632896}
   - {name: 玻利维亚4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-8540284_l-30, password: 157632896}
   - {name: 玻利维亚5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-89704636_l-30, password: 157632896}
-  - {name: 澳门1, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-3jMDwoEN}
-  - {name: 澳门2, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-CUlvrAeN}
-  - {name: 澳门3, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-emclY1yu}
-  - {name: 澳门4, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-4bJgHQtG}
-  - {name: 澳门5, server: us.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-9Xlx3GTq}
-  - {name: 尼日11, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-86258321_l-30, password: 157632896}
-  - {name: 尼日12, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-594747_l-30, password: 157632896}
-  - {name: 尼日13, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-284997_l-30, password: 157632896}
-  - {name: 尼日14, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-82159654_l-30, password: 157632896}
-  - {name: 尼日15, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-1001_sid-99612339_l-30, password: 157632896}
+  - {name: 澳门1, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-3jMDwoEN}
+  - {name: 澳门2, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-CUlvrAeN}
+  - {name: 澳门3, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-emclY1yu}
+  - {name: 澳门4, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-4bJgHQtG}
+  - {name: 澳门5, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-9Xlx3GTq}
+  - {name: 尼日11, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-3fUJPRlp}
+  - {name: 尼日12, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-MzV8CaQW}
+  - {name: 尼日13, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-EQFWw0Yu}
+  - {name: 尼日14, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-CeEVc32U}
+  - {name: 尼日15, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-XYQrbR9N}
   - {name: 巴基斯坦1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-22416233_l-30, password: 157632896}
   - {name: 巴基斯坦2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-9437401_l-30, password: 157632896}
   - {name: 巴基斯坦3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-89938686_l-30, password: 157632896}
