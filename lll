@@ -79,7 +79,17 @@ proxies:
   - {name: 巴基斯坦3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-89938686_l-30, password: 157632896}
   - {name: 巴基斯坦4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-95634084_l-30, password: 157632896}
   - {name: 巴基斯坦5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-4438356_l-30, password: 157632896}
-
+proxy-providers:
+  机场:
+    type: http
+    url: https://ucnd2.no-mad-sub.one/link/58TuLyxe0Zn9vAvB?clash=3&extend=1
+    interval: 86400
+    path: ./proxy_provider/jc.yaml
+    udp: false
+    health-check:
+      enable: true
+      interval: 600
+      url: http://connectivitycheck.platform.hicloud.com/generate_204
 proxy-groups:
   - name: Googleplay
     type: select
@@ -157,7 +167,8 @@ proxy-groups:
       - 日本专线3
 
       - 荷兰专线4
-
+    use:
+      - 机场
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
   - DOMAIN-SUFFIX,ip-api.com,Googleplay
