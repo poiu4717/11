@@ -64,11 +64,11 @@ proxies:
   - {name: 玻利维亚3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-86000860_l-30, password: 157632896}
   - {name: 玻利维亚4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-8540284_l-30, password: 157632896}
   - {name: 玻利维亚5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-BO_f-1001_sid-89704636_l-30, password: 157632896}
-  - {name: 澳门1, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-3jMDwoEN}
-  - {name: 澳门2, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-CUlvrAeN}
-  - {name: 澳门3, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-emclY1yu}
-  - {name: 澳门4, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-4bJgHQtG}
-  - {name: 澳门5, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mo_session-9Xlx3GTq}
+  - {name: 伊拉克1, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-38224697_l-30, password: 157632896}
+  - {name: 伊拉克2, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-46562827_l-30, password: 157632896}
+  - {name: 伊拉克3, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-5878757_l-30, password: 157632896}
+  - {name: 伊拉克4, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-266659_l-30, password: 157632896}
+  - {name: 伊拉克5, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-90109293_l-30, password: 157632896}
   - {name: 尼日11, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-3fUJPRlp}
   - {name: 尼日12, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-MzV8CaQW}
   - {name: 尼日13, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-EQFWw0Yu}
@@ -141,11 +141,11 @@ proxy-groups:
       - 玻利维亚3
       - 玻利维亚4
       - 玻利维亚5
-      - 澳门1
-      - 澳门2
-      - 澳门3
-      - 澳门4
-      - 澳门5
+      - 伊拉克1
+      - 伊拉克2
+      - 伊拉克3
+      - 伊拉克4
+      - 伊拉克5
       - 尼日11
       - 尼日12
       - 尼日13
