@@ -59,11 +59,11 @@ proxies:
   - {name: 印尼3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371252_l-30, password: 197836245}
   - {name: 印尼4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371253_l-30, password: 197836245}
   - {name: 印尼5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371254_l-30, password: 197836245}
-  - {name: 玻利维亚1, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BO_f-1001_sid-318648_l-15, password: 157632896, udp: true}
-  - {name: 玻利维亚2, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BO_f-1001_sid-844106_l-15, password: 157632896, udp: true}
-  - {name: 玻利维亚3, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BO_f-1001_sid-75779487_l-15, password: 157632896, udp: true}
-  - {name: 玻利维亚4, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BO_f-1001_sid-986004_l-15, password: 157632896, udp: true}
-  - {name: 玻利维亚5, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BO_f-1001_sid-94794548_l-15, password: 157632896, udp: true}
+  - {name: 玻利维亚1, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BO_f-1001_sid-1231207_l-15, password: 157632896, udp: true}
+  - {name: 玻利维亚2, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BO_f-1001_sid-208684_l-15, password: 157632896, udp: true}
+  - {name: 玻利维亚3, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BO_f-1001_sid-26784711_l-15, password: 157632896, udp: true}
+  - {name: 玻利维亚4, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BO_f-1001_sid-99304036_l-15, password: 157632896, udp: true}
+  - {name: 玻利维亚5, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BO_f-1001_sid-494750_l-15, password: 157632896, udp: true}
   - {name: 伊拉克1, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-38224697_l-30, password: 157632896}
   - {name: 伊拉克2, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-46562827_l-30, password: 157632896}
   - {name: 伊拉克3, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-5878757_l-30, password: 157632896}
