@@ -19,15 +19,15 @@ proxies:
   - {name: 美国专线2, type: vless, server: c38s3.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}, udp: true}
   - {name: 日本专线3, type: vless, server: c38s4.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}, udp: true}
   - {name: 荷兰专线4, type: vless, server: c38s5.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}, udp: true}
-  - {name: 尼日1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-58283435_l-30, password: 167132356}
-  - {name: 尼日2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-27097936_l-30, password: 167132356}
-  - {name: 尼日3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-761809_l-30, password: 167132356}
-  - {name: 尼日4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-7500538_l-30, password: 167132356}
-  - {name: 尼日5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-3689236_l-30, password: 167132356}
-  - {name: 尼日6, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-34933782_l-30, password: 167132356}
-  - {name: 尼日7, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-826399_l-30, password: 167132356}
-  - {name: 尼日8, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-7089079_l-30, password: 167132356}
-  - {name: 尼日9, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-NG_f-13636391_sid-897037_l-30, password: 167132356}
+  - {name: 尼日1, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-828749_l-15, password: 157632896, udp: true}
+  - {name: 尼日2, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-34526737_l-15, password: 157632896, udp: true}
+  - {name: 尼日3, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-557137_l-15, password: 157632896, udp: true}
+  - {name: 尼日4, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-877832_l-15, password: 157632896, udp: true}
+  - {name: 尼日5, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-95325260_l-15, password: 157632896, udp: true}
+  - {name: 尼日6, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-47136179_l-15, password: 157632896, udp: true}
+  - {name: 尼日7, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-7078127_l-15, password: 157632896, udp: true}
+  - {name: 尼日8, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-428029_l-15, password: 157632896, udp: true}
+  - {name: 尼日9, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-8418305_l-15, password: 157632896, udp: true}
   - {name: 菲律宾1, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-82652702_l-15, password: 157632896, udp: true}
   - {name: 菲律宾2, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-44788726_l-15, password: 157632896, udp: true}
   - {name: 菲律宾3, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-157470_l-15, password: 157632896, udp: true}
