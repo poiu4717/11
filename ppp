@@ -42,6 +42,12 @@ proxies:
   - {name: 土耳其18, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-TR_f-1005_sid-864558_l-15, password: 197836245, udp: true}
   - {name: 土耳其19, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-TR_f-1005_sid-5066545_l-15, password: 197836245, udp: true}
   - {name: 土耳其20, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-TR_f-1005_sid-99641926_l-15, password: 197836245, udp: true}
+  - {name: 乌克兰1, server: hk.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ua_session-LTvwz54M, udp: true}
+  - {name: 乌克兰2, server: hk.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ua_session-Tp1cvus2, udp: true}
+  - {name: 乌克兰3, server: hk.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ua_session-0XMdOJU8, udp: true}
+  - {name: 乌克兰4, server: hk.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ua_session-HxhXugek, udp: true}
+  - {name: 乌克兰5, server: hk.mooproxy.net, port: 55688, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ua_session-ylGpWYw4, udp: true}
+
 
 
 proxy-groups:
@@ -71,6 +77,12 @@ proxy-groups:
       - 土耳其18
       - 土耳其19
       - 土耳其20
+
+      - 乌克兰1
+      - 乌克兰2
+      - 乌克兰3
+      - 乌克兰4
+      - 乌克兰5
 
   - name: Proxies
     type: select
