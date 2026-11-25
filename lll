@@ -19,71 +19,71 @@ proxies:
   - {name: 美国专线2, type: vless, server: c38s3.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}, udp: true}
   - {name: 日本专线3, type: vless, server: c38s4.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}, udp: true}
   - {name: 荷兰专线4, type: vless, server: c38s5.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}, udp: true}
-  - {name: 尼日1, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-828749_l-15, password: 157632896, udp: true}
-  - {name: 尼日2, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-34526737_l-15, password: 157632896, udp: true}
-  - {name: 尼日3, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-557137_l-15, password: 157632896, udp: true}
-  - {name: 尼日4, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-877832_l-15, password: 157632896, udp: true}
-  - {name: 尼日5, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-95325260_l-15, password: 157632896, udp: true}
-  - {name: 尼日6, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-47136179_l-15, password: 157632896, udp: true}
-  - {name: 尼日7, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-7078127_l-15, password: 157632896, udp: true}
-  - {name: 尼日8, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-428029_l-15, password: 157632896, udp: true}
-  - {name: 尼日9, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-1001_sid-8418305_l-15, password: 157632896, udp: true}
-  - {name: 菲律宾1, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-82652702_l-15, password: 157632896, udp: true}
-  - {name: 菲律宾2, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-44788726_l-15, password: 157632896, udp: true}
-  - {name: 菲律宾3, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-157470_l-15, password: 157632896, udp: true}
-  - {name: 菲律宾4, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-211064_l-15, password: 157632896, udp: true}
-  - {name: 菲律宾5, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-536546_l-15, password: 157632896, udp: true}
-  - {name: 菲律宾6, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-114834_l-15, password: 157632896, udp: true}
-  - {name: 菲律宾7, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-451422_l-15, password: 157632896, udp: true}
-  - {name: 菲律宾8, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-6061511_l-15, password: 157632896, udp: true}
-  - {name: 菲律宾9, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-31710239_l-15, password: 157632896, udp: true}
-  - {name: 菲律宾10, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-PH_f-1001_sid-59011531_l-15, password: 157632896, udp: true}
-  - {name: 巴西1, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BR_f-1001_sid-121976_l-15, password: 157632896, udp: true}
-  - {name: 巴西2, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BR_f-1001_sid-460803_l-15, password: 157632896, udp: true}
-  - {name: 巴西3, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BR_f-1001_sid-651779_l-15, password: 157632896, udp: true}
-  - {name: 巴西4, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BR_f-1001_sid-5712780_l-15, password: 157632896, udp: true}
-  - {name: 巴西5, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-BR_f-1001_sid-1716924_l-15, password: 157632896, udp: true}
-  - {name: 土耳其1, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-TR_f-1001_sid-5769586_l-15, password: 157632896, udp: true}
-  - {name: 土耳其2, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-TR_f-1001_sid-5344396_l-15, password: 157632896, udp: true}
-  - {name: 土耳其3, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-TR_f-1001_sid-115504_l-15, password: 157632896, udp: true}
-  - {name: 土耳其4, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-TR_f-1001_sid-2774438_l-15, password: 157632896, udp: true}
-  - {name: 土耳其5, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-TR_f-1001_sid-327397_l-15, password: 157632896, udp: true}
+  - {name: 尼日1, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-NG-session-968798275-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 尼日2, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-NG-session-958909084-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 尼日3, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-NG-session-895266548-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 尼日4, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-NG-session-950962913-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 尼日5, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-NG-session-913489067-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 尼日6, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-NG-session-986298060-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 尼日7, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-NG-session-832884619-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 尼日8, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-NG-session-954654088-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 尼日9, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-NG-session-910905274-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 菲律宾1, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-PH-session-897809397-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 菲律宾2, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-PH-session-885416445-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 菲律宾3, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-PH-session-807074298-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 菲律宾4, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-PH-session-829421614-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 菲律宾5, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-PH-session-861524462-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 菲律宾6, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-PH-session-853278767-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 菲律宾7, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-PH-session-834874402-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 菲律宾8, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-PH-session-846303877-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 菲律宾9, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-PH-session-937433815-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 菲律宾10, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-PH-session-908748115-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 巴西1, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BR-session-963283766-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 巴西2, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BR-session-974565001-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 巴西3, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BR-session-876882486-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 巴西4, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BR-session-830475894-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 巴西5, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BR-session-972896438-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 土耳其1, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-TR-session-850307871-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 土耳其2, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-TR-session-859079686-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 土耳其3, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-TR-session-859571983-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 土耳其4, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-TR-session-954403368-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 土耳其5, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-TR-session-893923245-sessTime-60, password: YaueqUK8deR5P80, udp: true}
 
-  - {name: 乌克兰1, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-UA_f-1001_sid-1672323_l-15, password: 157632896, udp: true}
-  - {name: 乌克兰2, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-UA_f-1001_sid-22571871_l-15, password: 157632896, udp: true}
-  - {name: 乌克兰3, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-UA_f-1001_sid-774807_l-15, password: 157632896, udp: true}
-  - {name: 乌克兰4, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-UA_f-1001_sid-9022187_l-15, password: 157632896, udp: true}
-  - {name: 乌克兰5, server: global.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_g-UA_f-1001_sid-12721852_l-15, password: 157632896, udp: true}
-  - {name: 印尼1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371250_l-30, password: 197836245}
-  - {name: 印尼2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371251_l-30, password: 197836245}
-  - {name: 印尼3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371252_l-30, password: 197836245}
-  - {name: 印尼4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371253_l-30, password: 197836245}
-  - {name: 印尼5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimobmiyaip_g-ID_f-1005_sid-17893565371254_l-30, password: 197836245}
-  - {name: 玻利维亚1, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-47823555_l-15, password: 197836245, udp: true}
-  - {name: 玻利维亚2, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-764064_l-15, password: 197836245, udp: true}
-  - {name: 玻利维亚3, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-48814122_l-15, password: 197836245, udp: true}
-  - {name: 玻利维亚4, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-862682_l-15, password: 197836245, udp: true}
-  - {name: 玻利维亚5, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-170524_l-15, password: 197836245, udp: true}
-  - {name: 玻利维亚6, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-452378_l-15, password: 197836245, udp: true}
-  - {name: 玻利维亚7, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-8206467_l-15, password: 197836245, udp: true}
-  - {name: 玻利维亚8, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-7452467_l-15, password: 197836245, udp: true}
-  - {name: 玻利维亚9, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-38738553_l-15, password: 197836245, udp: true}
-  - {name: 玻利维亚10, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-5244313_l-15, password: 197836245, udp: true}
-  - {name: 伊拉克1, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-38224697_l-30, password: 157632896}
-  - {name: 伊拉克2, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-46562827_l-30, password: 157632896}
-  - {name: 伊拉克3, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-5878757_l-30, password: 157632896}
-  - {name: 伊拉克4, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-266659_l-30, password: 157632896}
-  - {name: 伊拉克5, server: as.miyaip.online, port: 1111, type: socks5, username: 1b7b34cbmiyaipb76_f-1001_sid-90109293_l-30, password: 157632896}
+  - {name: 乌克兰1, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-841945689-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰2, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-960157044-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰3, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-862731959-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰4, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-861548412-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰5, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-926615802-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 印尼1, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-ID-session-904845561-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 印尼2, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-ID-session-945052079-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 印尼3, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-ID-session-834626940-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 印尼4, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-ID-session-909418973-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 印尼5, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-ID-session-992602366-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 玻利维亚1, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BO-session-832614815-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 玻利维亚2, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BO-session-956934947-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 玻利维亚3, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BO-session-945774032-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 玻利维亚4, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BO-session-871244009-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 玻利维亚5, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BO-session-933984812-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 玻利维亚6, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BO-session-971655802-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 玻利维亚7, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BO-session-874356418-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 玻利维亚8, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BO-session-822809953-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 玻利维亚9, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BO-session-854796714-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 玻利维亚10, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-BO-session-886225192-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 伊拉克1, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-IQ-session-929818415-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 伊拉克2, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-IQ-session-904212889-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 伊拉克3, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-IQ-session-864908116-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 伊拉克4, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-IQ-session-809741939-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 伊拉克5, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-IQ-session-886758858-sessTime-60, password: YaueqUK8deR5P80, udp: true}
   - {name: 尼日11, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-3fUJPRlp}
   - {name: 尼日12, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-MzV8CaQW}
   - {name: 尼日13, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-EQFWw0Yu}
   - {name: 尼日14, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-CeEVc32U}
   - {name: 尼日15, server: df.668fx.com, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-XYQrbR9N}
-  - {name: 巴基斯坦1, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-22416233_l-30, password: 157632896}
-  - {name: 巴基斯坦2, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-9437401_l-30, password: 157632896}
-  - {name: 巴基斯坦3, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-89938686_l-30, password: 157632896}
-  - {name: 巴基斯坦4, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-95634084_l-30, password: 157632896}
-  - {name: 巴基斯坦5, server: as.miyaip.online, port: 1111, type: socks5, username: 1a7u3hikotvoimiyaip_g-PK_f-1001_sid-4438356_l-30, password: 157632896}
+  - {name: 巴基斯坦1, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-IQ-session-873439131-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 巴基斯坦2, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-IQ-session-873244031-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 巴基斯坦3, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-IQ-session-890632120-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 巴基斯坦4, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-IQ-session-966122825-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 巴基斯坦5, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-IQ-session-844679509-sessTime-60, password: YaueqUK8deR5P80, udp: true}
 proxy-providers:
   机场:
     type: http
