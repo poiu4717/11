@@ -21,27 +21,26 @@ proxies:
   - {name: 日本专线3, type: vless, server: c38s4.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}}
   - {name: 荷兰专线4, type: vless, server: c38s5.portablesubmarines.com, port: 443, uuid: 081bc15e-f966-4d0f-8179-e1bfa56cd9d1, flow: xtls-rprx-vision, encryption: , network: tcp, tls: true, servername: portal.citygrainla.com, client-fingerprint: chrome, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}}
 
-  - {name: 乌克兰1, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-974219668-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰2, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-831471179-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰3, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-886056483-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰4, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-885417556-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰5, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-850692726-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰6, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-947032582-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰7, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-875721918-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰8, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-867554616-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰9, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-876236755-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰10, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-939239830-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰11, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-824549369-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰12, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-814948809-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰13, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-979036376-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰14, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-832895040-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰15, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-896097084-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰16, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-948831934-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰17, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-905748265-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰18, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-844256687-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰19, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-854369074-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰20, server: df.668fx.com, port: 14267, type: socks5, username: move82260349-country-UA-session-956460784-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-
+  - {name: 乌克兰1, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-974219668-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰2, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-831471179-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰3, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-886056483-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰4, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-885417556-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰5, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-850692726-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰6, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-947032582-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰7, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-875721918-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰8, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-867554616-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰9, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-876236755-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰10, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-939239830-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰11, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-824549369-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰12, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-814948809-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰13, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-979036376-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰14, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-832895040-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰15, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-896097084-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰16, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-948831934-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰17, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-905748265-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰18, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-844256687-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰19, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-854369074-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰20, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-956460784-sessTime-60, password: YaueqUK8deR5P80, udp: true}
 
 proxy-groups:
   - name: Googleplay
