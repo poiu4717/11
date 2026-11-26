@@ -28,62 +28,63 @@ proxies:
   - {name: 尼日7, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-NG_f-1005_sid-5575642_l-15, password: 197836245, udp: true}
   - {name: 尼日8, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-NG_f-1005_sid-9053734_l-15, password: 197836245, udp: true}
   - {name: 尼日9, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-NG_f-1005_sid-3464138_l-15, password: 197836245, udp: true}
-  - {name: 菲律宾1, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-PH-session-897809397-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 菲律宾2, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-PH-session-885416445-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 菲律宾3, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-PH-session-807074298-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 菲律宾4, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-PH-session-829421614-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 菲律宾5, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-PH-session-861524462-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 菲律宾6, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-PH-session-853278767-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 菲律宾7, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-PH-session-834874402-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 菲律宾8, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-PH-session-846303877-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 菲律宾9, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-PH-session-937433815-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 菲律宾10, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-PH-session-908748115-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 巴西1, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BR-session-963283766-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 巴西2, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BR-session-974565001-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 巴西3, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BR-session-876882486-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 巴西4, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BR-session-830475894-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 巴西5, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BR-session-972896438-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 菲律宾1, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PH_f-1005_sid-4512831_l-15, password: 197836245, udp: true}
+  - {name: 菲律宾2, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PH_f-1005_sid-857266_l-15, password: 197836245, udp: true}
+  - {name: 菲律宾3, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PH_f-1005_sid-9737832_l-15, password: 197836245, udp: true}
+  - {name: 菲律宾4, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PH_f-1005_sid-4908676_l-15, password: 197836245, udp: true}
+  - {name: 菲律宾5, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PH_f-1005_sid-808011_l-15, password: 197836245, udp: true}
+  - {name: 菲律宾6, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PH_f-1005_sid-24098117_l-15, password: 197836245, udp: true}
+  - {name: 菲律宾7, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PH_f-1005_sid-9658085_l-15, password: 197836245, udp: true}
+  - {name: 菲律宾8, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PH_f-1005_sid-79521913_l-15, password: 197836245, udp: true}
+  - {name: 菲律宾9, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PH_f-1005_sid-369956_l-15, password: 197836245, udp: true}
+  - {name: 菲律宾10, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PH_f-1005_sid-7923798_l-15, password: 197836245, udp: true}
+  - {name: 巴西1, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BR_f-1005_sid-315960_l-15, password: 197836245, udp: true}
+  - {name: 巴西2, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BR_f-1005_sid-66807947_l-15, password: 197836245, udp: true}
+  - {name: 巴西3, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BR_f-1005_sid-9330981_l-15, password: 197836245, udp: true}
+  - {name: 巴西4, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BR_f-1005_sid-4855927_l-15, password: 197836245, udp: true}
+  - {name: 巴西5, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BR_f-1005_sid-6372659_l-15, password: 197836245, udp: true}
   - {name: 土耳其1, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-TR-session-850307871-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 土耳其2, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-TR-session-859079686-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 土耳其3, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-TR-session-859571983-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 土耳其4, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-TR-session-954403368-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 土耳其5, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-TR-session-893923245-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 土耳其1, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-TR_f-1005_sid-20153539_l-15, password: 197836245, udp: true}
+  - {name: 土耳其2, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-TR_f-1005_sid-6195403_l-15, password: 197836245, udp: true}
+  - {name: 土耳其3, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-TR_f-1005_sid-543455_l-15, password: 197836245, udp: true}
+  - {name: 土耳其4, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-TR_f-1005_sid-865549_l-15, password: 197836245, udp: true}
+  - {name: 土耳其5, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-TR_f-1005_sid-8998416_l-15, password: 197836245, udp: true}
 
-  - {name: 乌克兰1, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-841945689-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰2, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-960157044-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰3, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-862731959-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰4, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-861548412-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 乌克兰5, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-UA-session-926615802-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 印尼1, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-ID-session-904845561-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 印尼2, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-ID-session-945052079-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 印尼3, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-ID-session-834626940-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 印尼4, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-ID-session-909418973-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 印尼5, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-ID-session-992602366-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 玻利维亚1, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BO-session-832614815-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 玻利维亚2, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BO-session-956934947-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 玻利维亚3, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BO-session-945774032-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 玻利维亚4, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BO-session-871244009-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 玻利维亚5, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BO-session-933984812-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 玻利维亚6, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BO-session-971655802-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 玻利维亚7, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BO-session-874356418-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 玻利维亚8, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BO-session-822809953-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 玻利维亚9, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BO-session-854796714-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 玻利维亚10, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-BO-session-886225192-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 伊拉克1, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-IQ-session-929818415-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 伊拉克2, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-IQ-session-904212889-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 伊拉克3, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-IQ-session-864908116-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 伊拉克4, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-IQ-session-809741939-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 伊拉克5, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-IQ-session-886758858-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 乌克兰1, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-UA_f-1005_sid-510864_l-15, password: 197836245, udp: true}
+  - {name: 乌克兰2, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-UA_f-1005_sid-642404_l-15, password: 197836245, udp: true}
+  - {name: 乌克兰3, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-UA_f-1005_sid-5239441_l-15, password: 197836245, udp: true}
+  - {name: 乌克兰4, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-UA_f-1005_sid-166935_l-15, password: 197836245, udp: true}
+  - {name: 乌克兰5, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-UA_f-1005_sid-65220431_l-15, password: 197836245, udp: true}
+  - {name: 印尼1, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-ID_f-1005_sid-12299539_l-15, password: 197836245, udp: true}
+  - {name: 印尼2, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-ID_f-1005_sid-1724979_l-15, password: 197836245, udp: true}
+  - {name: 印尼3, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-ID_f-1005_sid-46974117_l-15, password: 197836245, udp: true}
+  - {name: 印尼4, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-ID_f-1005_sid-339303_l-15, password: 197836245, udp: true}
+  - {name: 印尼5, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-ID_f-1005_sid-1077695_l-15, password: 197836245, udp: true}
+  - {name: 玻利维亚1, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-26398021_l-15, password: 197836245, udp: true}
+  - {name: 玻利维亚2, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-621593_l-15, password: 197836245, udp: true}
+  - {name: 玻利维亚3, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-818147_l-15, password: 197836245, udp: true}
+  - {name: 玻利维亚4, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-364617_l-15, password: 197836245, udp: true}
+  - {name: 玻利维亚5, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-8552301_l-15, password: 197836245, udp: true}
+  - {name: 玻利维亚6, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-22212389_l-15, password: 197836245, udp: true}
+  - {name: 玻利维亚7, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-1695854_l-15, password: 197836245, udp: true}
+  - {name: 玻利维亚8, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-47233542_l-15, password: 197836245, udp: true}
+  - {name: 玻利维亚9, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-4989972_l-15, password: 197836245, udp: true}
+  - {name: 玻利维亚10, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BO_f-1005_sid-82450911_l-15, password: 197836245, udp: true}
+  - {name: 伊拉克1, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-IQ_f-1005_sid-475395_l-15, password: 197836245, udp: true}
+  - {name: 伊拉克2, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-IQ_f-1005_sid-765508_l-15, password: 197836245, udp: true}
+  - {name: 伊拉克3, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-IQ_f-1005_sid-732883_l-15, password: 197836245, udp: true}
+  - {name: 伊拉克4, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-IQ_f-1005_sid-71610291_l-15, password: 197836245, udp: true}
+  - {name: 伊拉克5, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-IQ_f-1005_sid-399785_l-15, password: 197836245, udp: true}
   - {name: 尼日11, server: www.defucloud.xyz, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-3fUJPRlp}
   - {name: 尼日12, server: www.defucloud.xyz, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-MzV8CaQW}
   - {name: 尼日13, server: www.defucloud.xyz, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-EQFWw0Yu}
   - {name: 尼日14, server: www.defucloud.xyz, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-CeEVc32U}
   - {name: 尼日15, server: www.defucloud.xyz, port: 61977, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-XYQrbR9N}
-  - {name: 巴基斯坦1, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-IQ-session-873439131-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 巴基斯坦2, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-IQ-session-873244031-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 巴基斯坦3, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-IQ-session-890632120-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 巴基斯坦4, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-IQ-session-966122825-sessTime-60, password: YaueqUK8deR5P80, udp: true}
-  - {name: 巴基斯坦5, server: www.defucloud.xyz, port: 14267, type: socks5, username: move82260349-country-IQ-session-844679509-sessTime-60, password: YaueqUK8deR5P80, udp: true}
+  - {name: 巴基斯坦1, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PK_f-1005_sid-8921756_l-15, password: 197836245, udp: true}
+  - {name: 巴基斯坦2, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PK_f-1005_sid-525482_l-15, password: 197836245, udp: true}
+  - {name: 巴基斯坦3, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PK_f-1005_sid-12703188_l-15, password: 197836245, udp: true}
+  - {name: 巴基斯坦4, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PK_f-1005_sid-93454666_l-15, password: 197836245, udp: true}
+  - {name: 巴基斯坦5, server: global.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-PK_f-1005_sid-328490_l-15, password: 197836245, udp: true}
 proxy-providers:
   机场:
     type: http
