@@ -43,7 +43,6 @@ proxies:
   - {name: 巴西3, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BR_f-1005_sid-9330981_l-15, password: 197836245, udp: true}
   - {name: 巴西4, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BR_f-1005_sid-4855927_l-15, password: 197836245, udp: true}
   - {name: 巴西5, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-BR_f-1005_sid-6372659_l-15, password: 197836245, udp: true}
-
   - {name: 土耳其1, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-TR_f-1005_sid-20153539_l-15, password: 197836245, udp: true}
   - {name: 土耳其2, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-TR_f-1005_sid-6195403_l-15, password: 197836245, udp: true}
   - {name: 土耳其3, server: as.miyaip.online, port: 1111, type: socks5, username: 1f7r3qspkomobmiyaip_g-TR_f-1005_sid-543455_l-15, password: 197836245, udp: true}
